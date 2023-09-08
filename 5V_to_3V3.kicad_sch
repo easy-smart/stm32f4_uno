@@ -335,7 +335,7 @@
     (property "Value" "XC6206P332MR" (at 58.42 33.655 0)
       (effects (font (size 1 1)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 58.42 32.385 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 58.42 32.385 0)
       (effects (font (size 1 1) italic) hide)
     )
     (property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf" (at 58.42 38.1 0)
