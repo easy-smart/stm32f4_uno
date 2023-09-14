@@ -243,7 +243,7 @@
   )
 
   (symbol (lib_id "Project_Library:Microchip Technology SST26VF016BEUI-104I/SN") (at 71.755 34.925 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 466660bb-16d9-4259-a5b5-4f2421487b58)
     (property "Reference" "U2" (at 81.28 33.6549 0)
       (effects (font (size 1 1)) (justify left))
