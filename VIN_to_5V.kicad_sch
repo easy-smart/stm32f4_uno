@@ -160,7 +160,7 @@
     (uuid f96584a8-e044-4cc8-a643-14b0e6c5b91d)
   )
 
-  (text_box "VIN: 4.8V..15.3V\nIOUT: max. 1A"
+  (text_box "VIN: 6.5V..15.3V\nIOUT: max. 1A"
     (at 40.005 55.88 0) (size 17.78 5.08)
     (stroke (width 0) (type default))
     (fill (type none))
