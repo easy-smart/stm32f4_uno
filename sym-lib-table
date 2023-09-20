@@ -1,4 +1,7 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/Project_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "#Transformer")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Transformer.kicad_sym")(options "")(descr ""))
+  (lib (name "#Connector")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Connector.kicad_sym")(options "")(descr ""))
+  (lib (name "#Connector_Debug")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Connector_Debug.kicad_sym")(options "")(descr ""))
+  (lib (name "#IC")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#IC.kicad_sym")(options "")(descr ""))
 )

@@ -1,5 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "Arduino_MountingHole")(type "KiCad")(uri "${KICAD7_TEMPLATE_DIR}/Arduino_Mega/Arduino_MountingHole.pretty")(options "")(descr ""))
-  (lib (name "Project_Library")(type "KiCad")(uri "${KIPRJMOD}/Project_Library.pretty")(options "")(descr ""))
+  (lib (name "#Transformer")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Transformer.pretty")(options "")(descr ""))
+  (lib (name "#Connector")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Connector.pretty")(options "")(descr ""))
+  (lib (name "#Connector_Debug")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Connector_Debug.pretty")(options "")(descr ""))
+  (lib (name "#IC")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#IC.pretty")(options "")(descr ""))
 )
