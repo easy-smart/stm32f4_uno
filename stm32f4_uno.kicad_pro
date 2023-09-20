@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|100000000|87780000|16738e8d-f64a-4520-b480-307e17fc6e64|25ded6be-af5d-48d4-b888-09cd64b4209f",
+        "silk_edge_clearance|100000000|96980000|16738e8d-f64a-4520-b480-307e17fc6e64|7348d1f6-87d0-4f45-8775-a69c26149652",
+        "silk_edge_clearance|164710000|47870000|a1531b39-8dae-4637-9a8d-49791182f594|d9865338-d0b8-43dc-a482-232c73779af2",
+        "silk_edge_clearance|164830000|47990000|a1531b39-8dae-4637-9a8d-49791182f594|499c4f11-07c7-42dc-9233-f46900fc9b26"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -539,8 +544,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "3D/stm32f4_uno.step",
+      "vrml": "3D/stm32f4_uno.wrl"
     },
     "page_layout_descr_file": ""
   },
