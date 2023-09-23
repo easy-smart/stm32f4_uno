@@ -387,9 +387,6 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C116") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/53921512-7955-4b3a-b330-0a7f69614726"
-          (reference "C202") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
           (reference "C502") (unit 1)
         )
@@ -654,9 +651,6 @@
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C115") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/53921512-7955-4b3a-b330-0a7f69614726"
-          (reference "C201") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
           (reference "C501") (unit 1)
