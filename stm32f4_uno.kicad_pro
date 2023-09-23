@@ -522,19 +522,23 @@
       },
       {
         "netclass": "USB_DATA",
-        "pattern": "/USB_D*"
+        "pattern": "*/USB_D*"
       },
       {
         "netclass": "USB_DATA",
-        "pattern": "/USB_OTG_*"
+        "pattern": "*/USB_OTG_*"
       },
       {
         "netclass": "Power",
-        "pattern": "/V*"
+        "pattern": "*/V*"
       },
       {
         "netclass": "Power",
-        "pattern": "VBUS"
+        "pattern": "*/VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*/VOUT"
       }
     ]
   },
