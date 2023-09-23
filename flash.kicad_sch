@@ -243,7 +243,7 @@
   )
 
   (symbol (lib_id "#IC:Microchip Technology SST26VF016BEUI-104I/SN") (at 71.755 34.925 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 466660bb-16d9-4259-a5b5-4f2421487b58)
     (property "Reference" "U2" (at 81.28 33.6549 0)
       (effects (font (size 1 1)) (justify left))
@@ -306,7 +306,7 @@
           (reference "U101") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
-          (reference "U501") (unit 1)
+          (reference "U301") (unit 1)
         )
       )
     )
@@ -368,7 +368,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
-          (reference "C501") (unit 1)
+          (reference "C301") (unit 1)
         )
       )
     )

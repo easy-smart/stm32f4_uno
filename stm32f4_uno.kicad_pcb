@@ -104,20 +104,20 @@
   (net 16 "Net-(D103-A)")
   (net 17 "Net-(D104-A)")
   (net 18 "/PD9")
-  (net 19 "Net-(D301-K)")
-  (net 20 "unconnected-(J105-NC-Pad1)")
-  (net 21 "unconnected-(J105-NC-Pad2)")
+  (net 19 "Net-(D401-K)")
+  (net 20 "unconnected-(J111-NC-Pad1)")
+  (net 21 "unconnected-(J111-NC-Pad2)")
   (net 22 "/SYS_SWDIO")
   (net 23 "/SYS_SWCLK")
   (net 24 "/SYS_SWO")
-  (net 25 "unconnected-(J105-JRCLK{slash}NC-Pad9)")
-  (net 26 "unconnected-(J105-JTDI{slash}NC-Pad10)")
-  (net 27 "unconnected-(J105-GNDDetect-Pad11)")
+  (net 25 "unconnected-(J111-JRCLK{slash}NC-Pad9)")
+  (net 26 "unconnected-(J111-JTDI{slash}NC-Pad10)")
+  (net 27 "unconnected-(J111-GNDDetect-Pad11)")
   (net 28 "/USART1_RX")
   (net 29 "/USART1_TX")
   (net 30 "/USB_OTG_FS_D+")
   (net 31 "/USB_OTG_FS_D-")
-  (net 32 "unconnected-(J2-SBU1-PadA8)")
+  (net 32 "unconnected-(J112-Pad3)")
   (net 33 "Net-(L101-Pad1)")
   (net 34 "/BOOT0")
   (net 35 "/ETH_MDC")
@@ -192,8 +192,8 @@
   (net 104 "/PD1{slash}LED2_ORG")
   (net 105 "/PC12{slash}LED3_RED")
   (net 106 "/PC10{slash}LED4_BLU")
-  (net 107 "unconnected-(J2-SBU2-PadB8)")
-  (net 108 "unconnected-(J1-Pad3)")
+  (net 107 "unconnected-(J201-SBU1-PadA8)")
+  (net 108 "unconnected-(J201-SBU2-PadB8)")
   (net 109 "/PA3")
   (net 110 "/ETH_RXER")
   (net 111 "/40V->5V/VOUT")
@@ -209,14 +209,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/00000000-0000-0000-0000-000056d71773")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J102" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J106" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 8dc850f4-d923-4e77-aa57-834836bc5435)
     )
@@ -292,14 +291,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/00000000-0000-0000-0000-000056d72f1c")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J103" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J110" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 0c325bee-cc8b-4126-a3c9-62ece1d6dc18)
     )
@@ -371,14 +369,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/00000000-0000-0000-0000-000056d72368")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J101" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J102" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp e3738030-5bb8-4ee0-9acd-8a449423b7d0)
     )
@@ -458,14 +455,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/00000000-0000-0000-0000-000056d734d0")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J104" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J109" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 802e26f6-a473-4168-a2af-89075c46cdb8)
     )
@@ -852,13 +848,13 @@
     (property "Partnumber" "SST26VF016BEUI-104I/SN")
     (property "Sheetfile" "flash.kicad_sch")
     (property "Sheetname" "Flash (SPI)")
-    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "isBasicPart" "NO")
     (property "ki_description" "NOR-Flash 16Mbit SPI/SQI Flash w/EUI, 85C, 2.3V-3.6V")
     (property "ki_keywords" "flash memory spi EUI")
     (path "/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07/466660bb-16d9-4259-a5b5-4f2421487b58")
-    (attr smd)
-    (fp_text reference "U501" (at 0 -3.4) (layer "F.SilkS") hide
+    (attr smd exclude_from_bom)
+    (fp_text reference "U301" (at 0 -3.4) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp e3176389-6a3e-45b8-988b-a55099065d65)
     )
@@ -1061,7 +1057,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/e13302fc-e917-4e93-b46e-0b7c57e82a52")
     (attr smd)
-    (fp_text reference "C115" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C112" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 761b2337-9bed-4c25-90c2-baedd584257e)
     )
@@ -1120,7 +1116,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/f12c0288-d4b0-46ba-8083-e7b94026b054")
     (attr smd)
-    (fp_text reference "C110" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C106" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 4e58e20a-8cc3-4a34-8e92-8c1b4a37db11)
     )
@@ -1179,7 +1175,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/c40ee95c-378e-498f-86c5-995c39228cb3")
     (attr smd)
-    (fp_text reference "C108" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C104" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp c9e14fab-7c4f-4a7f-aab9-9df514016733)
     )
@@ -1238,7 +1234,7 @@
     (property "ki_keywords" "R resistor")
     (path "/e72a8332-3ba4-45eb-8660-3dc6fc018488/6e037b56-aaa9-4551-b316-7cd46c1462cf")
     (attr smd)
-    (fp_text reference "R301" (at 0 -1.17) (layer "F.SilkS") hide
+    (fp_text reference "R401" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 630e2f81-20bc-4a98-a77c-5d8db5865f0f)
     )
@@ -1273,7 +1269,7 @@
     (pad "1" smd roundrect (at -0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 1 "GND") (pintype "passive") (tstamp 14ca30d3-4d5e-4bbf-9741-cd156b104f14))
     (pad "2" smd roundrect (at 0.51 0) (size 0.54 0.64) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 19 "Net-(D301-K)") (pintype "passive") (tstamp 0a31aada-e5c1-44be-9eab-984dd9d29a98))
+      (net 19 "Net-(D401-K)") (pintype "passive") (tstamp 0a31aada-e5c1-44be-9eab-984dd9d29a98))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
@@ -1297,7 +1293,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/6f880a79-50d4-42d5-a682-b1fa88f0aaaf")
     (attr smd)
-    (fp_text reference "C104" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C118" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp c38ca6a6-0673-4c8a-95ec-c418e542535a)
     )
@@ -1356,7 +1352,7 @@
     (property "ki_keywords" "R resistor")
     (path "/582694f8-a9f2-483a-96e9-5afba887b365")
     (attr smd)
-    (fp_text reference "R102" (at 0 -1.17) (layer "F.SilkS") hide
+    (fp_text reference "R103" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 77243627-a87d-4512-9e73-476bcc199b0e)
     )
@@ -1415,7 +1411,7 @@
     (property "ki_keywords" "R resistor")
     (path "/91583b7c-3b3f-4587-9cb4-eb67c3b5bf8a")
     (attr smd)
-    (fp_text reference "R104" (at 0 -1.17) (layer "F.SilkS") hide
+    (fp_text reference "R105" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp ce22e3f0-9358-403e-8106-41d34686a2ae)
     )
@@ -1476,7 +1472,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/c71f752d-6d24-44fb-bd6d-69f95efd2cf1/6c5e0b1e-2c46-4382-812a-2cba9ceece0a")
     (attr smd)
-    (fp_text reference "C604" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C501" (at 0 -1.68) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 53da5707-3ef0-4b6d-b07c-66f51f23f47b)
     )
@@ -1535,7 +1531,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/1be0a5be-ffd7-4e4f-8ce6-b21a15c09ad8")
     (attr smd)
-    (fp_text reference "C119" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C116" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp c9e33553-de81-4833-818d-c98e4989335d)
     )
@@ -1594,7 +1590,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/225aa940-8fc8-4cbe-b69e-0b7bd3feab1b")
     (attr smd)
-    (fp_text reference "C116" (at 0 -1.16 45) (layer "F.SilkS") hide
+    (fp_text reference "C108" (at 0 -1.16 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp a944576d-991c-4820-8d25-aed23e6cf1fd)
     )
@@ -1653,7 +1649,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/f6f10f93-2e4c-44e6-b13f-e0aab630f182")
     (attr smd)
-    (fp_text reference "C109" (at 0 -1.16 45) (layer "F.SilkS") hide
+    (fp_text reference "C105" (at 0 -1.16 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 1f8d5935-481b-4863-b56d-dd347685a96d)
     )
@@ -1712,7 +1708,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/69217a89-ec97-49ee-aa7a-9aa1724a047d")
     (attr smd)
-    (fp_text reference "C112" (at 0 -1.43) (layer "F.SilkS") hide
+    (fp_text reference "C101" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp c6dc3255-eb65-4d1c-957e-e1435a638407)
     )
@@ -1771,7 +1767,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07/a09de2e5-e921-46b7-bdcf-03fb506aee72")
     (attr smd)
-    (fp_text reference "C501" (at 0 -1.16 90) (layer "F.SilkS") hide
+    (fp_text reference "C301" (at 0 -1.16 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp bdffb964-bd80-485e-b1c0-209fefadab7e)
     )
@@ -1831,7 +1827,7 @@
     (property "ki_keywords" "DC power barrel jack connector")
     (path "/4a6ca58b-28a7-40ef-8e05-ce1fb37dce8d")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J1" (at 5.75 8.45) (layer "F.SilkS") hide
+    (fp_text reference "J112" (at 5.75 8.45) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b76bdd79-680b-4895-bc7e-03c0a35bb5c2)
     )
@@ -1900,7 +1896,7 @@
     (pad "2" thru_hole circle (at 0 6 270) (size 2.6 2.6) (drill 1.6) (layers "*.Cu" "*.Mask")
       (net 1 "GND") (pintype "passive") (tstamp 5b56c25e-268a-4a85-898e-60cc4c4e11cd))
     (pad "3" thru_hole circle (at 4.7 3 270) (size 2.6 2.6) (drill 1.6) (layers "*.Cu" "*.Mask")
-      (net 108 "unconnected-(J1-Pad3)") (pintype "passive+no_connect") (tstamp 82f4e81a-f82f-45a3-a0c3-81c09d281eed))
+      (net 32 "unconnected-(J112-Pad3)") (pintype "passive+no_connect") (tstamp 82f4e81a-f82f-45a3-a0c3-81c09d281eed))
     (model "${KIPRJMOD}/KiCad-Lib/#Connector.3dshapes/CUI Devices PJ-102AH.step"
       (offset (xyz 0 -6.5 0))
       (scale (xyz 1 1 1))
@@ -1924,7 +1920,7 @@
     (property "ki_keywords" "inductor choke coil reactor magnetic")
     (path "/c71f752d-6d24-44fb-bd6d-69f95efd2cf1/045c3c69-6dab-4f18-af34-554be960b846")
     (attr smd)
-    (fp_text reference "L601" (at 0 -6.05 90) (layer "F.SilkS") hide
+    (fp_text reference "L501" (at 0 -6.05 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 10f58caa-b2c6-49bf-ada1-d32fa4d9f8e4)
     )
@@ -1991,7 +1987,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/1d9bf0aa-7fff-47a1-876d-72175619c3d3")
     (attr smd)
-    (fp_text reference "C102" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C115" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp a1bd4a13-1a7e-4679-a9b5-e4846eeb4a25)
     )
@@ -2052,7 +2048,7 @@
     (property "ki_keywords" "R resistor")
     (path "/7fb4eaf4-74c6-419d-8578-6cd0a966ea13/f02d6ae5-357d-4d7b-a9ef-bc96e9a7046e")
     (attr smd)
-    (fp_text reference "R403" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R203" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 9555c5e5-7655-4c99-a947-683edc8419c0)
     )
@@ -2111,7 +2107,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/f675454e-5bba-48f1-a1ad-ffc706a9dc8d")
     (attr smd)
-    (fp_text reference "C105" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C119" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 676b007c-034d-46c6-8406-ec6d41736d15)
     )
@@ -2235,7 +2231,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/a9eb118b-27b5-4399-a019-45837ab05f28")
     (attr smd)
-    (fp_text reference "C107" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C103" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 17830ad1-735e-4835-bd8f-acff38120bbc)
     )
@@ -2289,13 +2285,13 @@
     (property "Partnumber" "FTSH-107-01-L-DV-K-A")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
+    (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "ST Debug Connector, standard ARM Cortex-M SWD and JTAG interface plus UART")
     (property "ki_keywords" "ST STM32 Cortex Debug Connector ARM SWD JTAG")
     (path "/a0f3fcd1-a7e7-40d6-afe3-5bfaa6ef28f2")
-    (attr through_hole)
-    (fp_text reference "J105" (at 3.81 -4.191 90) (layer "F.SilkS")
+    (attr through_hole exclude_from_bom)
+    (fp_text reference "J111" (at 3.81 -4.191 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 4ec09649-8157-4deb-8444-fd5560f210ec)
     )
@@ -2344,9 +2340,9 @@
     (fp_circle (center -1.27 0) (end -1.17 0)
       (stroke (width 0.2) (type solid)) (fill none) (layer "F.Fab") (tstamp f9682428-ba77-4c4c-a15f-d688ba922583))
     (pad "1" thru_hole rect (at 0 0 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
-      (net 20 "unconnected-(J105-NC-Pad1)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.102) (tstamp 79900439-b838-48a6-b281-80068414aed3))
+      (net 20 "unconnected-(J111-NC-Pad1)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.102) (tstamp 79900439-b838-48a6-b281-80068414aed3))
     (pad "2" thru_hole circle (at 0 -1.27 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
-      (net 21 "unconnected-(J105-NC-Pad2)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.102) (tstamp a3148a61-aab9-449e-af34-ce929cb332c7))
+      (net 21 "unconnected-(J111-NC-Pad2)") (pinfunction "NC") (pintype "no_connect") (solder_mask_margin 0.102) (tstamp a3148a61-aab9-449e-af34-ce929cb332c7))
     (pad "3" thru_hole circle (at 1.27 0 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
       (net 6 "+3V3") (pinfunction "VCC") (pintype "power_in") (solder_mask_margin 0.102) (tstamp b00c1452-e644-4a4f-9bea-561c69f5c095))
     (pad "4" thru_hole circle (at 1.27 -1.27 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
@@ -2360,11 +2356,11 @@
     (pad "8" thru_hole circle (at 3.81 -1.27 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
       (net 24 "/SYS_SWO") (pinfunction "JTDO/SWO") (pintype "input") (solder_mask_margin 0.102) (tstamp 42ebf830-84b5-4883-8664-47329f2410f0))
     (pad "9" thru_hole circle (at 5.08 0 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
-      (net 25 "unconnected-(J105-JRCLK{slash}NC-Pad9)") (pinfunction "JRCLK/NC") (pintype "input+no_connect") (solder_mask_margin 0.102) (tstamp ad5ccb37-fac6-4d32-a3f8-c9ca33d064b3))
+      (net 25 "unconnected-(J111-JRCLK{slash}NC-Pad9)") (pinfunction "JRCLK/NC") (pintype "input+no_connect") (solder_mask_margin 0.102) (tstamp ad5ccb37-fac6-4d32-a3f8-c9ca33d064b3))
     (pad "10" thru_hole circle (at 5.08 -1.27 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
-      (net 26 "unconnected-(J105-JTDI{slash}NC-Pad10)") (pinfunction "JTDI/NC") (pintype "output+no_connect") (solder_mask_margin 0.102) (tstamp 9dccd1c0-9324-4f1d-b5f2-07deb320bfa7))
+      (net 26 "unconnected-(J111-JTDI{slash}NC-Pad10)") (pinfunction "JTDI/NC") (pintype "output+no_connect") (solder_mask_margin 0.102) (tstamp 9dccd1c0-9324-4f1d-b5f2-07deb320bfa7))
     (pad "11" thru_hole circle (at 6.35 0 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
-      (net 27 "unconnected-(J105-GNDDetect-Pad11)") (pinfunction "GNDDetect") (pintype "passive+no_connect") (solder_mask_margin 0.102) (tstamp 02e18f5a-0de0-43fe-8152-5ee27796f361))
+      (net 27 "unconnected-(J111-GNDDetect-Pad11)") (pinfunction "GNDDetect") (pintype "passive+no_connect") (solder_mask_margin 0.102) (tstamp 02e18f5a-0de0-43fe-8152-5ee27796f361))
     (pad "12" thru_hole circle (at 6.35 -1.27 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
       (net 8 "/~{RESET}") (pinfunction "~{RST}") (pintype "open_collector") (solder_mask_margin 0.102) (tstamp a5b7c9f7-266e-4ae1-be60-c9b64fd9dbee))
     (pad "13" thru_hole circle (at 7.62 0 90) (size 1.06 1.06) (drill 0.71) (layers "*.Cu" "*.Mask")
@@ -2455,7 +2451,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/e72a8332-3ba4-45eb-8660-3dc6fc018488/45182fbe-f546-4479-913f-49443c7e6e2f")
     (attr smd)
-    (fp_text reference "C302" (at 0 -1.68 90) (layer "F.SilkS") hide
+    (fp_text reference "C402" (at 0 -1.68 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 8ac95656-1d78-4a39-96b0-d564c5e0190e)
     )
@@ -2581,7 +2577,7 @@
     (property "ki_keywords" "R resistor")
     (path "/7fb4eaf4-74c6-419d-8578-6cd0a966ea13/ec226817-9b14-4e6f-b371-7c40e8e7629d")
     (attr smd)
-    (fp_text reference "R402" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R202" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 2aa8ced0-4d7d-4043-bc60-a7b942a8d101)
     )
@@ -2635,14 +2631,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/194ba539-346b-4350-aab9-e2009a267387")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J110" (at 0 -2.77) (layer "F.SilkS") hide
+    (fp_text reference "J101" (at 0 -2.77) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp a81fb67e-cf0c-4e36-b9ce-3ce15e6540a2)
     )
@@ -2725,7 +2720,7 @@
     (path "/565783ed-8488-428b-93ff-cb4f49b39cf2")
     (attr exclude_from_pos_files exclude_from_bom)
     (net_tie_pad_groups "1, 2")
-    (fp_text reference "JP101" (at 0 -1.8) (layer "F.SilkS") hide
+    (fp_text reference "JP102" (at 0 -1.8) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp d15ad377-5cb3-4f5c-885d-cb3a97092efc)
     )
@@ -2809,14 +2804,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/a4a396eb-57eb-4aaa-a3af-534d7d0d3a04")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J109" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J105" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 4427fb56-1343-4301-a10f-b451fd893902)
     )
@@ -2897,7 +2891,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/346d2af5-3da3-472c-add0-8f5d26d8e8e8")
     (attr smd)
-    (fp_text reference "C103" (at 0 -1.43 45) (layer "F.SilkS") hide
+    (fp_text reference "C114" (at 0 -1.43 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 7c15bbaa-07bb-4c34-9a3d-22ff725b5257)
     )
@@ -2956,7 +2950,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/c2b1c47d-7ba7-4ac0-a1e4-ea3b08489997")
     (attr smd)
-    (fp_text reference "C114" (at 0 -1.16 45) (layer "F.SilkS") hide
+    (fp_text reference "C111" (at 0 -1.16 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp d3f7e58b-6770-4684-9214-a5e31f0b603b)
     )
@@ -3015,7 +3009,7 @@
     (property "ki_keywords" "R resistor")
     (path "/ecbcd525-16bd-4a89-8b1c-25239deb4624")
     (attr smd)
-    (fp_text reference "R105" (at 0 -1.17) (layer "F.SilkS") hide
+    (fp_text reference "R106" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 3c1afbaa-37a1-45c8-bf63-c8a02315e382)
     )
@@ -3074,7 +3068,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/ea6d3bc1-92fb-4d6d-ab48-cdddda067105")
     (attr smd)
-    (fp_text reference "C106" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C102" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 5aa7708a-f512-4932-a1f5-0513c83dbee3)
     )
@@ -3156,7 +3150,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/05d137ea-c26e-4ad9-a219-ab635fb82c2e")
     (attr smd)
-    (fp_text reference "C111" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C107" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp f23febd2-7c5c-4056-851b-179ac954746f)
     )
@@ -3283,7 +3277,6 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)")
@@ -3367,7 +3360,7 @@
     (property "ki_keywords" "linear regulator ldo fixed positive")
     (path "/e72a8332-3ba4-45eb-8660-3dc6fc018488/68a66699-60f0-4c43-a966-62a30e913819")
     (attr smd)
-    (fp_text reference "U301" (at 0 -4.5 90) (layer "F.SilkS") hide
+    (fp_text reference "U401" (at 0 -4.5 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 46ea1633-a86d-4ecd-bcf4-e87d18d3b7a1)
     )
@@ -3436,7 +3429,7 @@
     (property "ki_keywords" "usb universal serial bus type-C USB2.0")
     (path "/7fb4eaf4-74c6-419d-8578-6cd0a966ea13/43ef053a-7698-48ca-b11e-b679353025ed")
     (attr smd)
-    (fp_text reference "J2" (at 0 -5.5 -90 unlocked) (layer "F.SilkS")
+    (fp_text reference "J201" (at 0 -5.5 -90 unlocked) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 558315f9-0ccb-4c8b-b726-5d10a9f1a5ae)
     )
@@ -3479,7 +3472,7 @@
     (pad "A7" smd rect (at 0.25 -3.68 270) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 31 "/USB_OTG_FS_D-") (pinfunction "D-") (pintype "bidirectional") (tstamp c2c07287-9882-4306-9e41-63df3c70abfd))
     (pad "A8" smd rect (at 1.25 -3.68 270) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 32 "unconnected-(J2-SBU1-PadA8)") (pinfunction "SBU1") (pintype "bidirectional+no_connect") (tstamp cc32296a-7a3f-4d5b-b633-896cf57ce440))
+      (net 107 "unconnected-(J201-SBU1-PadA8)") (pinfunction "SBU1") (pintype "bidirectional+no_connect") (tstamp cc32296a-7a3f-4d5b-b633-896cf57ce440))
     (pad "A9" smd rect (at 2.4 -3.68 270) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "/VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp 0b1700ab-4a49-4a1d-a9e8-9d9a8ff7887a))
     (pad "A12" smd rect (at 3.2 -3.68 270) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
@@ -3495,7 +3488,7 @@
     (pad "B7" smd rect (at -0.75 -3.68 270) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 31 "/USB_OTG_FS_D-") (pinfunction "D-") (pintype "bidirectional") (tstamp 1cc6ee42-1dc8-438d-b8f7-d2a7df172262))
     (pad "B8" smd rect (at -1.75 -3.68 270) (size 0.3 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
-      (net 107 "unconnected-(J2-SBU2-PadB8)") (pinfunction "SBU2") (pintype "bidirectional+no_connect") (tstamp 69f8c29b-5b40-4af3-8ef2-6bbc3ee97d82))
+      (net 108 "unconnected-(J201-SBU2-PadB8)") (pinfunction "SBU2") (pintype "bidirectional+no_connect") (tstamp 69f8c29b-5b40-4af3-8ef2-6bbc3ee97d82))
     (pad "B9" smd rect (at -2.4 -3.68 270) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 4 "/VBUS") (pinfunction "VBUS") (pintype "passive") (tstamp 0e983e48-c397-41c6-b5f4-ffed16d4d726))
     (pad "B12" smd rect (at -3.2 -3.68 270) (size 0.6 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
@@ -3531,7 +3524,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/3f6333e2-ff64-48fd-b12e-84090024b774")
     (attr smd)
-    (fp_text reference "C113" (at 0 -1.16 45) (layer "F.SilkS") hide
+    (fp_text reference "C110" (at 0 -1.16 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp f3017749-c3b9-4293-bc6c-e003ce0eeb8a)
     )
@@ -3585,14 +3578,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/4becb64b-d84a-4244-bf69-c88055f4ad17")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J106" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J107" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp d7ee295c-0b5b-40b5-956e-6081243079b2)
     )
@@ -3677,7 +3669,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/365f5525-1d09-4882-9046-1d1cf7294036")
     (attr smd)
-    (fp_text reference "C101" (at 0 -1.16 135) (layer "F.SilkS") hide
+    (fp_text reference "C113" (at 0 -1.16 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp f0b22bb1-ab61-40b2-a4d8-ee752831c5e5)
     )
@@ -3796,14 +3788,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/65639710-b76e-45fd-b614-f539faaefee7")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J107" (at 0 -2.77 90) (layer "F.SilkS") hide
+    (fp_text reference "J104" (at 0 -2.77 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 343b09f2-957e-44b9-87a3-90cbfbb92987)
     )
@@ -3886,7 +3877,7 @@
     (property "ki_keywords" "LED diode light-emitting-diode")
     (path "/e72a8332-3ba4-45eb-8660-3dc6fc018488/66dde913-5571-4ac4-8679-430bf10a85c4")
     (attr smd)
-    (fp_text reference "D301" (at 0 -1.43) (layer "F.SilkS") hide
+    (fp_text reference "D401" (at 0 -1.43) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp a401d209-cfca-4f9b-a116-c70f1b45ad26)
     )
@@ -3923,7 +3914,7 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 05ced077-b1f2-4563-8621-fe4474c4185a))
     (pad "1" smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
-      (net 19 "Net-(D301-K)") (pinfunction "K") (pintype "passive") (tstamp ac390f5c-1ef6-4df9-8021-08ca2cbb78f3))
+      (net 19 "Net-(D401-K)") (pinfunction "K") (pintype "passive") (tstamp ac390f5c-1ef6-4df9-8021-08ca2cbb78f3))
     (pad "2" smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "+3V3") (pinfunction "A") (pintype "passive") (tstamp f21c2cb4-6b28-4bcd-bc5f-e74188c24cac))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
@@ -3933,15 +3924,15 @@
     )
   )
 
-  (footprint "Capacitor_SMD:CP_Elec_10x12.6" (layer "F.Cu")
+  (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D" (layer "F.Cu")
     (tstamp b79dc18b-48a3-4a22-bb0a-3e2bb9639d85)
     (at 82.2198 88.3158)
-    (descr "SMD capacitor, aluminum electrolytic, Panasonic F12, 10.0x12.6mm")
-    (tags "capacitor electrolytic")
-    (property "Description" "180uF 35V 4.1A@100kHz 22mΩ@100kHz ±20% SMD,D10xL12.7mm  Aluminum Electrolytic Capacitors - SMD ROHS")
-    (property "JLCPCB Part #" "C488000")
-    (property "Manufacturer" "Nichicon")
-    (property "Partnumber" "PCV1V181MCL2GS")
+    (descr "Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
+    (tags "capacitor tantalum")
+    (property "Description" "220uF 10V ±20% CASE-D-7343 Tantalum Capacitors ROHS")
+    (property "JLCPCB Part #" "C2690543")
+    (property "Manufacturer" "CEC(Shenzhen Zhenhua XinYun Elec)")
+    (property "Partnumber" "PXTD010M227E040STU")
     (property "Sheetfile" "40V_to_5V.kicad_sch")
     (property "Sheetname" "40V->5V")
     (property "isBasicPart" "NO")
@@ -3949,89 +3940,47 @@
     (property "ki_keywords" "cap capacitor")
     (path "/c71f752d-6d24-44fb-bd6d-69f95efd2cf1/b4b1aec9-6aa0-4d2f-a60e-759acf09034b")
     (attr smd)
-    (fp_text reference "C605" (at 0 -6.2) (layer "F.SilkS")
+    (fp_text reference "C503" (at 0 -3.1) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp dc14c78e-72bd-49d8-bb4a-400c8a1186f3)
+      (tstamp 674d1b75-76ec-474f-ba69-6077d5ab8134)
     )
-    (fp_text value "180u 35V" (at 0 6.2) (layer "F.Fab")
+    (fp_text value "220uF 10V" (at 0 3.1) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp ea2bcd3d-bc26-4f5c-bec3-6238a77a3e7a)
+      (tstamp 1487e345-238b-4fbd-abb8-97f449d09588)
     )
     (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp d1203f58-51dd-478b-a652-331c26154bbb)
+      (tstamp f0ca52b6-f8da-4f35-b56f-16653602ea48)
     )
-    (fp_line (start -6.75 -2.46) (end -5.5 -2.46)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp c23e6994-377e-44f9-8537-4c22c8269737))
-    (fp_line (start -6.125 -3.085) (end -6.125 -1.835)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp aae588e7-59b8-47a0-b6f6-92e58be7f236))
-    (fp_line (start -5.26 -4.195563) (end -5.26 -1.21)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3f756b4a-5d54-4f56-adce-2d0f7023d3ab))
-    (fp_line (start -5.26 -4.195563) (end -4.195563 -5.26)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 6c65a5d2-3d1b-4bab-8f7c-9f0e0ff46dd7))
-    (fp_line (start -5.26 4.195563) (end -5.26 1.21)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 50cf1be4-9389-4fb9-8370-4467decc8dcc))
-    (fp_line (start -5.26 4.195563) (end -4.195563 5.26)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp cbf18171-f7fd-4438-b474-f610e0e96055))
-    (fp_line (start -4.195563 -5.26) (end 5.26 -5.26)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp cb45ed55-a665-47bf-9bb2-81c8bf9da528))
-    (fp_line (start -4.195563 5.26) (end 5.26 5.26)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 9bb53cdf-37be-4b9d-a340-b0b05bab3259))
-    (fp_line (start 5.26 -5.26) (end 5.26 -1.21)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 97b4b2e2-a549-4150-b9a6-491feccce692))
-    (fp_line (start 5.26 5.26) (end 5.26 1.21)
-      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp ee12a8c6-dac3-49f3-acaf-1da443bd8fa4))
-    (fp_line (start -6.8 -1.2) (end -6.8 1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 5cdb61fc-db8b-479b-9ebb-70f39674e25b))
-    (fp_line (start -6.8 1.2) (end -5.4 1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp f0b95748-ea54-4f63-9210-3df226647979))
-    (fp_line (start -5.4 -4.25) (end -5.4 -1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 02199c81-c3d2-4c76-9ca2-2cc4d6fdc314))
-    (fp_line (start -5.4 -4.25) (end -4.25 -5.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 87adf6c9-95bf-42fd-a6de-608d04103591))
-    (fp_line (start -5.4 -1.2) (end -6.8 -1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ed395476-4fae-43c5-a540-d5542c0978b0))
-    (fp_line (start -5.4 1.2) (end -5.4 4.25)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 69653d6e-d13c-4df4-a289-de29779319d6))
-    (fp_line (start -5.4 4.25) (end -4.25 5.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ed3beef7-d96a-4c29-9408-bb86a9cdce16))
-    (fp_line (start -4.25 -5.4) (end 5.4 -5.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0693689f-a432-4e1b-b30a-4b4e006c5bd3))
-    (fp_line (start -4.25 5.4) (end 5.4 5.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 8cc416d1-c791-4556-961a-b6b5bc366f94))
-    (fp_line (start 5.4 -5.4) (end 5.4 -1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a5c25dfc-5c4d-4969-9196-57530cfb9733))
-    (fp_line (start 5.4 -1.2) (end 6.8 -1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 1d6a0518-2e57-407e-a24d-7127d83a0095))
-    (fp_line (start 5.4 1.2) (end 5.4 5.4)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp df153359-a20f-4b66-ab1d-a899203b804b))
-    (fp_line (start 6.8 -1.2) (end 6.8 1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 0ae426b8-0e90-4800-905a-c627134a4d4c))
-    (fp_line (start 6.8 1.2) (end 5.4 1.2)
-      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp a6a0ec2a-e8b3-450c-8a16-3d579eb66db7))
-    (fp_line (start -5.15 -4.15) (end -5.15 4.15)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp ba1a9aac-d077-4db7-a524-af387159f0cd))
-    (fp_line (start -5.15 -4.15) (end -4.15 -5.15)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a2268c4f-fd1a-461b-9ddc-ace5f5e4c031))
-    (fp_line (start -5.15 4.15) (end -4.15 5.15)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp d3d033bc-1e19-4de4-a46d-0c697094d4e0))
-    (fp_line (start -4.558325 -1.7) (end -3.558325 -1.7)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 2d8767ef-846c-47e0-a376-9e5df1cfb0da))
-    (fp_line (start -4.15 -5.15) (end 5.15 -5.15)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 05f041fd-822c-4398-a438-552e0ae4d762))
-    (fp_line (start -4.15 5.15) (end 5.15 5.15)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 3fea0836-c461-4c75-a394-52dec73e104a))
-    (fp_line (start -4.058325 -2.2) (end -4.058325 -1.2)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 850d3d23-e88f-4d04-b0c6-987ddfe59a5e))
-    (fp_line (start 5.15 -5.15) (end 5.15 5.15)
-      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 4e80a1a9-57c2-401d-8e6a-f84e22d5f664))
-    (fp_circle (center 0 0) (end 5 0)
-      (stroke (width 0.1) (type solid)) (fill none) (layer "F.Fab") (tstamp daf305ba-ff97-4c8d-af39-1e7a08587dda))
-    (pad "1" smd roundrect (at -4.35 0) (size 4.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.131579)
-      (net 3 "+5V") (pintype "passive") (tstamp 4f1df6d7-4409-440f-8bc4-a592d11e66a9))
-    (pad "2" smd roundrect (at 4.35 0) (size 4.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.131579)
-      (net 1 "GND") (pintype "passive") (tstamp c155b225-8b9f-4eb0-aa3f-4e76fcf4b0bb))
-    (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/CP_Elec_10x12.6.wrl"
+    (fp_line (start -4.41 -2.26) (end -4.41 2.26)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 1621825d-55ae-4e0e-b212-93d1943f4e8c))
+    (fp_line (start -4.41 2.26) (end 3.65 2.26)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 3365fa1b-bd3d-4d80-a007-9d8206f7e8a6))
+    (fp_line (start 3.65 -2.26) (end -4.41 -2.26)
+      (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp d94716e0-e3ad-42bb-859b-89c6e921c826))
+    (fp_line (start -4.4 -2.4) (end 4.4 -2.4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp ff732aa4-8913-4f23-9066-f81c1b284a1a))
+    (fp_line (start -4.4 2.4) (end -4.4 -2.4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp b9d4e2a3-e738-4b66-a7ca-54c777e7393f))
+    (fp_line (start 4.4 -2.4) (end 4.4 2.4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 25f041ab-d791-4c28-9641-79e42f571d36))
+    (fp_line (start 4.4 2.4) (end -4.4 2.4)
+      (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 190cbea2-c17e-4c8b-b21b-2fc5a8fe8280))
+    (fp_line (start -3.65 -1.15) (end -3.65 2.15)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e6346346-19e4-4433-b77f-e1f2e1783d16))
+    (fp_line (start -3.65 2.15) (end 3.65 2.15)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 9e6f2f22-c3b7-42d8-80cb-2aaff0ab77b3))
+    (fp_line (start -2.65 -2.15) (end -3.65 -1.15)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp da4c00e6-0dc9-4989-ac73-54ba84791b75))
+    (fp_line (start 3.65 -2.15) (end -2.65 -2.15)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp bf7db2f4-f129-4fd3-b50d-125f76a811d3))
+    (fp_line (start 3.65 2.15) (end 3.65 -2.15)
+      (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8a290e6d-e369-42be-ac76-9530eb97753f))
+    (pad "1" smd roundrect (at -3.1125 0) (size 2.075 2.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.120482)
+      (net 3 "+5V") (pintype "passive") (tstamp 9a29c9c6-7bf9-413c-82f0-a450bea0205d))
+    (pad "2" smd roundrect (at 3.1125 0) (size 2.075 2.55) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.120482)
+      (net 1 "GND") (pintype "passive") (tstamp 74bc9bd4-6e92-4948-b2a4-bf8d6c1ad259))
+    (model "${KICAD6_3DMODEL_DIR}/Capacitor_Tantalum_SMD.3dshapes/CP_EIA-7343-31_Kemet-D.wrl"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -4056,7 +4005,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/e72a8332-3ba4-45eb-8660-3dc6fc018488/7bcacf24-b4e4-46c9-bb6a-643a4f046033")
     (attr smd)
-    (fp_text reference "C301" (at 0 -1.68 90) (layer "F.SilkS") hide
+    (fp_text reference "C401" (at 0 -1.68 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp d2a52b13-05dc-4189-9935-34cb30fb2745)
     )
@@ -4117,7 +4066,7 @@
     (property "ki_keywords" "R resistor")
     (path "/7fb4eaf4-74c6-419d-8578-6cd0a966ea13/9fc20d4f-b502-4ad8-a215-df17fca65188")
     (attr smd)
-    (fp_text reference "R401" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R201" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp dc21439f-96c7-4a30-ad2c-cd083d6a3a89)
     )
@@ -4176,7 +4125,7 @@
     (property "ki_keywords" "R resistor")
     (path "/88358d7d-7808-4e30-a1d0-6d216606045d")
     (attr smd)
-    (fp_text reference "R103" (at 0 -1.17) (layer "F.SilkS") hide
+    (fp_text reference "R104" (at 0 -1.17) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp f18628fd-440c-422a-8a93-1bdb6f057c3f)
     )
@@ -4224,10 +4173,10 @@
     (at 118.0338 89.5218 90)
     (descr "SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm")
     (tags "capacitor electrolytic")
-    (property "Description" "220uF 50V 220mA@120Hz ±20% SMD,D10xL10mm  Aluminum Electrolytic Capacitors - SMD ROHS")
-    (property "JLCPCB Part #" "C125977")
+    (property "Description" "220uF 50V 350mA@120Hz ±20% SMD,D10xL10mm  Aluminum Electrolytic Capacitors - SMD ROHS")
+    (property "JLCPCB Part #" "C116211")
     (property "Manufacturer" "Nichicon")
-    (property "Partnumber" "UWT1H221MNL1GS")
+    (property "Partnumber" "UCD1H221MNL1GS")
     (property "Sheetfile" "40V_to_5V.kicad_sch")
     (property "Sheetname" "40V->5V")
     (property "isBasicPart" "NO")
@@ -4235,7 +4184,7 @@
     (property "ki_keywords" "cap capacitor")
     (path "/c71f752d-6d24-44fb-bd6d-69f95efd2cf1/91a0b5d0-bf57-46d9-bef1-48ff6a6c8b35")
     (attr smd)
-    (fp_text reference "C603" (at 0 -6.2 90) (layer "F.SilkS") hide
+    (fp_text reference "C502" (at 0 -6.2 90) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0492b999-2370-47f3-bcb9-7a76c05c6f0b)
     )
@@ -4340,7 +4289,7 @@
     (property "ki_keywords" "diode Schottky")
     (path "/c71f752d-6d24-44fb-bd6d-69f95efd2cf1/038a7cbc-3700-4b7c-bf05-e3d78fcc1914")
     (attr smd)
-    (fp_text reference "D601" (at 0 -2.5) (layer "F.SilkS") hide
+    (fp_text reference "D501" (at 0 -2.5) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e4950f96-41b0-4b70-b080-3eeeeb210f79)
     )
@@ -4436,7 +4385,7 @@
     (property "ki_keywords" "R resistor")
     (path "/f8432970-9cae-451d-b46d-5789c06bfeb6")
     (attr smd)
-    (fp_text reference "R106" (at 0 -1.17 90) (layer "F.SilkS") hide
+    (fp_text reference "R101" (at 0 -1.17 90) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 4dc6ba32-a7c2-410e-8695-ad4139d12f10)
     )
@@ -4490,14 +4439,13 @@
     (property "Partnumber" "")
     (property "Sheetfile" "stm32f4_uno.kicad_sch")
     (property "Sheetname" "")
-    (property "dnp" "")
     (property "exclude_from_bom" "")
     (property "isBasicPart" "")
     (property "ki_description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/714b935e-d4db-4eb0-9a25-cfbf16b67fd9")
     (attr through_hole exclude_from_bom)
-    (fp_text reference "J111" (at 0 -2.77) (layer "F.SilkS") hide
+    (fp_text reference "J103" (at 0 -2.77) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)))
       (tstamp 297dfd09-2053-4871-9d77-52806d1f076a)
     )
@@ -4666,7 +4614,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/56d93519-5beb-479c-9c41-4144a9d5aeff")
     (attr smd)
-    (fp_text reference "C118" (at 0 -1.43 135) (layer "F.SilkS") hide
+    (fp_text reference "C117" (at 0 -1.43 135) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp b0a14afa-7b5f-49d9-9fd4-d8aecc4879d3)
     )
@@ -4750,7 +4698,7 @@
     (property "ki_keywords" "Buck DC/DC Converter")
     (path "/c71f752d-6d24-44fb-bd6d-69f95efd2cf1/11b0ef36-21d4-4f40-9c84-fa4e28729d8e")
     (attr smd)
-    (fp_text reference "U602" (at 0 -3.4) (layer "F.SilkS")
+    (fp_text reference "U501" (at 0 -3.4) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 89974a7c-e8fc-460f-80a7-96ec69556337)
     )
@@ -4827,7 +4775,7 @@
     (property "ki_keywords" "R resistor")
     (path "/4dd9e1bc-823d-4cfb-84eb-a5073c0dc03d")
     (attr smd)
-    (fp_text reference "R101" (at 0 -1.17 45) (layer "F.SilkS") hide
+    (fp_text reference "R102" (at 0 -1.17 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 59668db1-c6c5-4131-a864-8fdb202a3dd5)
     )
@@ -4886,7 +4834,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/96503fbb-5124-4b3d-8bf8-99d73c3109c4")
     (attr smd)
-    (fp_text reference "C117" (at 0 -1.16 45) (layer "F.SilkS") hide
+    (fp_text reference "C109" (at 0 -1.16 45) (layer "F.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.13)))
       (tstamp 451ae719-30e9-4450-9cab-05ba5f85a732)
     )
@@ -4947,7 +4895,7 @@
     (path "/f6691259-a17a-40a7-8694-47c278f45791")
     (attr exclude_from_pos_files exclude_from_bom)
     (net_tie_pad_groups "1, 2")
-    (fp_text reference "JP102" (at 0 1.8) (layer "B.SilkS") hide
+    (fp_text reference "JP101" (at 0 1.8) (layer "B.SilkS") hide
         (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
       (tstamp 179f82b9-db4c-428b-9725-59cd86a6d5f5)
     )

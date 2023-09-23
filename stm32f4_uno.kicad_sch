@@ -3585,9 +3585,9 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 189.865 45.085 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d71773)
-    (property "Reference" "J102" (at 189.865 34.925 0)
+    (property "Reference" "J106" (at 189.865 34.925 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Power" (at 192.405 45.085 90)
@@ -3640,7 +3640,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J102") (unit 1)
+          (reference "J106") (unit 1)
         )
       )
     )
@@ -3649,7 +3649,7 @@
   (symbol (lib_id "power:GND") (at 176.53 51.435 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d721e6)
-    (property "Reference" "#PWR0106" (at 170.18 51.435 0)
+    (property "Reference" "#PWR0118" (at 170.18 51.435 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 172.085 51.435 90)
@@ -3665,16 +3665,16 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 262.255 37.465 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72368)
-    (property "Reference" "J101" (at 262.255 24.765 0)
+    (property "Reference" "J102" (at 262.255 24.765 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Digital/PWM" (at 259.715 37.465 90)
@@ -3729,16 +3729,16 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J101") (unit 1)
+          (reference "J102") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 189.865 70.485 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d72f1c)
-    (property "Reference" "J103" (at 189.865 62.865 0)
+    (property "Reference" "J110" (at 189.865 62.865 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Analog" (at 192.405 70.485 90)
@@ -3789,16 +3789,16 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J103") (unit 1)
+          (reference "J110") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 262.255 67.945 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00000000-0000-0000-0000-000056d734d0)
-    (property "Reference" "J104" (at 262.255 57.785 0)
+    (property "Reference" "J109" (at 262.255 57.785 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Digital/PWM" (at 259.715 67.945 90)
@@ -3851,7 +3851,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J104") (unit 1)
+          (reference "J109") (unit 1)
         )
       )
     )
@@ -3951,7 +3951,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0127") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -4013,7 +4013,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C111") (unit 1)
+          (reference "C107") (unit 1)
         )
       )
     )
@@ -4022,8 +4022,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 193.675 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0617f702-1fe3-497f-acaf-307289c1cda6)
-    (property "Reference" "#PWR0108" (at 193.675 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0119" (at 193.675 97.79 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 193.675 90.17 0)
       (effects (font (size 1 1)))
@@ -4038,7 +4038,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -4073,7 +4073,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -4082,11 +4082,11 @@
   (symbol (lib_id "power:PWR_FLAG") (at 180.975 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 082b0ab0-eea5-4e6b-8ce0-67c5d2e9b1a7)
-    (property "Reference" "#FLG0102" (at 180.975 146.685 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#FLG0103" (at 180.975 146.685 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "PWR_FLAG" (at 180.975 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1 1)) hide)
     )
     (property "Footprint" "" (at 180.975 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4113,16 +4113,16 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#FLG0102") (unit 1)
+          (reference "#FLG0103") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 223.52 31.75 270) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 194ba539-346b-4350-aab9-e2009a267387)
-    (property "Reference" "J110" (at 233.68 31.75 0)
+    (property "Reference" "J101" (at 233.68 31.75 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "STM32 GPIO" (at 223.52 34.29 90)
@@ -4175,7 +4175,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J110") (unit 1)
+          (reference "J101") (unit 1)
         )
       )
     )
@@ -4184,11 +4184,11 @@
   (symbol (lib_id "power:PWR_FLAG") (at 122.555 26.035 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1aadf71a-fc6b-4eaf-8eaa-21165c32defe)
-    (property "Reference" "#FLG0103" (at 122.555 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#FLG0101" (at 122.555 27.94 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "PWR_FLAG" (at 122.555 31.115 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1 1)) hide)
     )
     (property "Footprint" "" (at 122.555 26.035 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4215,7 +4215,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#FLG0103") (unit 1)
+          (reference "#FLG0101") (unit 1)
         )
       )
     )
@@ -4266,7 +4266,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C119") (unit 1)
+          (reference "C116") (unit 1)
         )
       )
     )
@@ -4325,7 +4325,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C102") (unit 1)
+          (reference "C115") (unit 1)
         )
       )
     )
@@ -4387,7 +4387,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C116") (unit 1)
+          (reference "C108") (unit 1)
         )
       )
     )
@@ -4422,7 +4422,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -4496,8 +4496,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 27.94 27.94 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 345d9139-c189-44cd-95c5-c24f818c433c)
-    (property "Reference" "#PWR0122" (at 31.75 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0105" (at 31.75 27.94 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 22.86 27.94 90)
       (effects (font (size 1 1)))
@@ -4512,7 +4512,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -4571,7 +4571,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C103") (unit 1)
+          (reference "C114") (unit 1)
         )
       )
     )
@@ -4633,7 +4633,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C101") (unit 1)
+          (reference "C113") (unit 1)
         )
       )
     )
@@ -4695,7 +4695,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C113") (unit 1)
+          (reference "C110") (unit 1)
         )
       )
     )
@@ -4704,11 +4704,11 @@
   (symbol (lib_id "#Connector:CUI Devices PJ-102AH") (at 165.1 147.32 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a6ca58b-28a7-40ef-8e05-ce1fb37dce8d)
-    (property "Reference" "J1" (at 165.1 139.065 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Reference" "J112" (at 165.1 139.065 0)
+      (effects (font (size 1 1)))
     )
     (property "Value" "Barrel_Jack" (at 165.1 141.605 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1 1)))
     )
     (property "Footprint" "#Connector:CUI Devices PJ-102AH.pdf" (at 165.1 154.686 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4737,7 +4737,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J1") (unit 1)
+          (reference "J112") (unit 1)
         )
       )
     )
@@ -4809,9 +4809,9 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x10") (at 242.57 65.405 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 4becb64b-d84a-4244-bf69-c88055f4ad17)
-    (property "Reference" "J106" (at 242.57 52.705 0)
+    (property "Reference" "J107" (at 242.57 52.705 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Ethernet" (at 240.03 65.405 90)
@@ -4851,7 +4851,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J106") (unit 1)
+          (reference "J107") (unit 1)
         )
       )
     )
@@ -4913,7 +4913,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R101") (unit 1)
+          (reference "R102") (unit 1)
         )
       )
     )
@@ -4948,7 +4948,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -4957,8 +4957,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 176.53 40.005 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5480d8ea-594c-4ee5-8c3d-3dbcb5ff3ac1)
-    (property "Reference" "#PWR0128" (at 180.34 40.005 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0111" (at 180.34 40.005 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 171.45 40.005 90)
       (effects (font (size 1 1)))
@@ -4973,7 +4973,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -4982,7 +4982,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 33.02 27.94 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 565783ed-8488-428b-93ff-cb4f49b39cf2)
-    (property "Reference" "JP101" (at 33.02 26.035 0)
+    (property "Reference" "JP102" (at 33.02 26.035 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Jumper_2_Bridged" (at 33.02 25.4 0)
@@ -5014,7 +5014,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "JP101") (unit 1)
+          (reference "JP102") (unit 1)
         )
       )
     )
@@ -5065,7 +5065,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C118") (unit 1)
+          (reference "C117") (unit 1)
         )
       )
     )
@@ -5130,7 +5130,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R102") (unit 1)
+          (reference "R103") (unit 1)
         )
       )
     )
@@ -5139,8 +5139,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 254.635 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c59487f-8242-4a76-a390-0360334aab9d)
-    (property "Reference" "#PWR0114" (at 254.635 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0125" (at 254.635 144.78 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 254.635 137.16 0)
       (effects (font (size 1 1)))
@@ -5155,7 +5155,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -5190,16 +5190,16 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 242.57 39.37 0) (mirror y) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 65639710-b76e-45fd-b614-f539faaefee7)
-    (property "Reference" "J107" (at 242.57 29.21 0)
+    (property "Reference" "J104" (at 242.57 29.21 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "STM32 GPIO" (at 240.03 39.37 90)
@@ -5252,7 +5252,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J107") (unit 1)
+          (reference "J104") (unit 1)
         )
       )
     )
@@ -5287,7 +5287,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -5322,7 +5322,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -5373,7 +5373,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C112") (unit 1)
+          (reference "C101") (unit 1)
         )
       )
     )
@@ -5403,7 +5403,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -5513,16 +5513,16 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C104") (unit 1)
+          (reference "C118") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 223.52 39.37 270) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 714b935e-d4db-4eb0-9a25-cfbf16b67fd9)
-    (property "Reference" "J111" (at 233.68 39.37 0)
+    (property "Reference" "J103" (at 233.68 39.37 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "STM32 GPIO" (at 223.52 36.83 90)
@@ -5575,7 +5575,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J111") (unit 1)
+          (reference "J103") (unit 1)
         )
       )
     )
@@ -5619,8 +5619,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 221.615 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76683f71-ac7c-474b-887f-10382ccd6596)
-    (property "Reference" "#PWR0112" (at 221.615 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0123" (at 221.615 144.78 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 221.615 137.16 0)
       (effects (font (size 1 1)))
@@ -5635,7 +5635,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -5644,7 +5644,7 @@
   (symbol (lib_id "power:GND") (at 231.14 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77e31b8c-0d4e-4cbc-869c-acff10d61fac)
-    (property "Reference" "#PWR0129" (at 231.14 50.8 0)
+    (property "Reference" "#PWR0113" (at 231.14 50.8 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 231.14 48.895 90)
@@ -5660,7 +5660,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -5760,7 +5760,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -5825,7 +5825,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R103") (unit 1)
+          (reference "R104") (unit 1)
         )
       )
     )
@@ -5936,7 +5936,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R104") (unit 1)
+          (reference "R105") (unit 1)
         )
       )
     )
@@ -5945,8 +5945,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 27.94 16.51 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9459a1b8-45ce-4658-aa04-e91de347467d)
-    (property "Reference" "#PWR0118" (at 31.75 16.51 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0101" (at 31.75 16.51 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 22.86 16.51 90)
       (effects (font (size 1 1)))
@@ -5961,7 +5961,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -6083,7 +6083,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C117") (unit 1)
+          (reference "C109") (unit 1)
         )
       )
     )
@@ -6118,14 +6118,14 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "#Connector_Debug:Conn_ST_STDC14") (at 193.675 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a0f3fcd1-a7e7-40d6-afe3-5bfaa6ef28f2)
     (property "Reference" "J4" (at 179.07 104.14 90)
       (effects (font (size 1 1)) (justify right))
@@ -6190,16 +6190,16 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J105") (unit 1)
+          (reference "J111") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 204.47 42.545 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a4a396eb-57eb-4aaa-a3af-534d7d0d3a04)
-    (property "Reference" "J109" (at 204.47 32.385 0)
+    (property "Reference" "J105" (at 204.47 32.385 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "STM32 GPIO" (at 207.01 42.545 90)
@@ -6252,7 +6252,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "J109") (unit 1)
+          (reference "J105") (unit 1)
         )
       )
     )
@@ -6314,7 +6314,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C107") (unit 1)
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -6349,7 +6349,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -6545,7 +6545,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C114") (unit 1)
+          (reference "C111") (unit 1)
         )
       )
     )
@@ -6554,8 +6554,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 176.53 45.085 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3a972c6-d41b-427d-a500-843217624a66)
-    (property "Reference" "#PWR0104" (at 180.34 45.085 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0114" (at 180.34 45.085 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 171.45 45.085 90)
       (effects (font (size 1 1)))
@@ -6570,7 +6570,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -6632,7 +6632,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C108") (unit 1)
+          (reference "C104") (unit 1)
         )
       )
     )
@@ -6641,8 +6641,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 255.905 99.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca867321-88aa-4c47-827a-a0a951c3e887)
-    (property "Reference" "#PWR0109" (at 255.905 103.505 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0120" (at 255.905 103.505 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 255.905 95.885 0)
       (effects (font (size 1 1)))
@@ -6657,7 +6657,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -6666,7 +6666,7 @@
   (symbol (lib_id "power:GND") (at 267.335 34.925 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca8b3698-13a7-49d9-b5d5-d68cf1f0d929)
-    (property "Reference" "#PWR0102" (at 273.685 34.925 0)
+    (property "Reference" "#PWR0109" (at 273.685 34.925 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 271.78 34.925 90)
@@ -6682,7 +6682,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -6717,7 +6717,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -6747,14 +6747,14 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 204.47 67.945 0) (unit 1)
-    (in_bom no) (on_board yes) (dnp yes)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid cfd84465-5e45-4213-b77d-b344ff0d5793)
     (property "Reference" "J108" (at 204.47 60.325 0)
       (effects (font (size 1 1)))
@@ -6816,11 +6816,11 @@
   (symbol (lib_id "power:PWR_FLAG") (at 189.23 160.02 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1862a27-3b68-41cd-9d63-8defac8a1c52)
-    (property "Reference" "#FLG0101" (at 189.23 161.925 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#FLG0104" (at 189.23 161.925 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "PWR_FLAG" (at 189.23 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1 1)) hide)
     )
     (property "Footprint" "" (at 189.23 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6847,7 +6847,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#FLG0101") (unit 1)
+          (reference "#FLG0104") (unit 1)
         )
       )
     )
@@ -6856,7 +6856,7 @@
   (symbol (lib_id "power:GND") (at 247.65 31.75 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3b642e1-73f5-47e2-b839-1fc2a95ea669)
-    (property "Reference" "#PWR0126" (at 254 31.75 0)
+    (property "Reference" "#PWR0107" (at 254 31.75 0)
       (effects (font (size 1 1)) hide)
     )
     (property "Value" "GND" (at 252.095 31.75 90)
@@ -6872,7 +6872,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -6929,7 +6929,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C115") (unit 1)
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -6938,11 +6938,11 @@
   (symbol (lib_id "power:PWR_FLAG") (at 184.785 37.465 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e1f6608a-903d-4969-b2f8-8ff1cfd58763)
-    (property "Reference" "#FLG0104" (at 182.88 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#FLG0102" (at 182.88 37.465 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "PWR_FLAG" (at 179.705 37.465 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1 1)) hide)
     )
     (property "Footprint" "" (at 184.785 37.465 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6969,7 +6969,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#FLG0104") (unit 1)
+          (reference "#FLG0102") (unit 1)
         )
       )
     )
@@ -7084,7 +7084,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C106") (unit 1)
+          (reference "C102") (unit 1)
         )
       )
     )
@@ -7119,7 +7119,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -7184,7 +7184,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R105") (unit 1)
+          (reference "R106") (unit 1)
         )
       )
     )
@@ -7246,7 +7246,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C110") (unit 1)
+          (reference "C106") (unit 1)
         )
       )
     )
@@ -7276,7 +7276,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -7285,7 +7285,7 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 114.3 16.51 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid f6691259-a17a-40a7-8694-47c278f45791)
-    (property "Reference" "JP102" (at 114.3 14.605 0)
+    (property "Reference" "JP101" (at 114.3 14.605 0)
       (effects (font (size 1 1)))
     )
     (property "Value" "Jumper_2_Bridged" (at 114.3 13.97 0)
@@ -7317,7 +7317,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "JP102") (unit 1)
+          (reference "JP101") (unit 1)
         )
       )
     )
@@ -7368,7 +7368,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C105") (unit 1)
+          (reference "C119") (unit 1)
         )
       )
     )
@@ -7430,7 +7430,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C109") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -7495,7 +7495,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "R106") (unit 1)
+          (reference "R101") (unit 1)
         )
       )
     )
@@ -7504,8 +7504,8 @@
   (symbol (lib_name "+3V3_1") (lib_id "power:+3V3") (at 138.43 19.05 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffb2671c-506e-4ed2-a3b7-b5623a830023)
-    (property "Reference" "#PWR0119" (at 134.62 19.05 0)
-      (effects (font (size 1.27 1.27)) hide)
+    (property "Reference" "#PWR0102" (at 134.62 19.05 0)
+      (effects (font (size 1 1)) hide)
     )
     (property "Value" "+3V3" (at 143.51 19.05 90)
       (effects (font (size 1 1)))
@@ -7520,7 +7520,7 @@
     (instances
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -7562,7 +7562,7 @@
     )
     (instances
       (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
       )
     )
   )
@@ -7599,7 +7599,7 @@
     )
     (instances
       (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "2"))
       )
     )
   )
@@ -7632,7 +7632,7 @@
     )
     (instances
       (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "6"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "5"))
       )
     )
   )
@@ -7661,7 +7661,7 @@
     )
     (instances
       (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "3"))
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55" (page "4"))
       )
     )
   )
