@@ -5,4 +5,5 @@
   (lib (name "#Connector")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Connector.pretty")(options "")(descr ""))
   (lib (name "#Connector_Debug")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Connector_Debug.pretty")(options "")(descr ""))
   (lib (name "#IC")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#IC.pretty")(options "")(descr ""))
+  (lib (name "#Logo")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Lib/#Logo.pretty")(options "")(descr ""))
 )
