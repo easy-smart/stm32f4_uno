@@ -522,19 +522,23 @@
       },
       {
         "netclass": "USB_DATA",
-        "pattern": "/USB_D*"
+        "pattern": "*/USB_D*"
       },
       {
         "netclass": "USB_DATA",
-        "pattern": "/USB_OTG_*"
+        "pattern": "*/USB_OTG_*"
       },
       {
         "netclass": "Power",
-        "pattern": "/V*"
+        "pattern": "*/V*"
       },
       {
         "netclass": "Power",
-        "pattern": "VBUS"
+        "pattern": "*/VBUS"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*/VOUT"
       }
     ]
   },
@@ -628,20 +632,20 @@
       ""
     ],
     [
-      "53921512-7955-4b3a-b330-0a7f69614726",
-      "VIN->5V"
-    ],
-    [
-      "e72a8332-3ba4-45eb-8660-3dc6fc018488",
-      "5V->3V3"
-    ],
-    [
       "7fb4eaf4-74c6-419d-8578-6cd0a966ea13",
       "USB"
     ],
     [
       "0d09f1c5-80ef-4ecd-bc99-7e5b757caf07",
       "Flash (SPI)"
+    ],
+    [
+      "e72a8332-3ba4-45eb-8660-3dc6fc018488",
+      "5V->3V3"
+    ],
+    [
+      "c71f752d-6d24-44fb-bd6d-69f95efd2cf1",
+      "40V->5V"
     ]
   ],
   "text_variables": {}

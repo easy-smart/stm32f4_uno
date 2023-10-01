@@ -387,14 +387,11 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C116") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/53921512-7955-4b3a-b330-0a7f69614726"
-          (reference "C202") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
           (reference "C502") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "C302") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -459,7 +456,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "D301") (unit 1)
+          (reference "D401") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7fb4eaf4-74c6-419d-8578-6cd0a966ea13"
           (reference "D401") (unit 1)
@@ -520,7 +517,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "U301") (unit 1)
+          (reference "U401") (unit 1)
         )
       )
     )
@@ -585,7 +582,7 @@
       )
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "R301") (unit 1)
+          (reference "R401") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7fb4eaf4-74c6-419d-8578-6cd0a966ea13"
           (reference "R401") (unit 1)
@@ -655,14 +652,11 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "C115") (unit 1)
         )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/53921512-7955-4b3a-b330-0a7f69614726"
-          (reference "C201") (unit 1)
-        )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
           (reference "C501") (unit 1)
         )
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "C301") (unit 1)
+          (reference "C401") (unit 1)
         )
       )
     )
