@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "STM32F4 Uno")
+    (date "2023-10-02")
+    (rev "1.0.x-dev")
+    (company "easy-smart solution GmbH")
+  )
+
   (lib_symbols
     (symbol "#IC:Microchip Technology SST26VF016BEUI-104I/SN" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -6.35 11.43 0)

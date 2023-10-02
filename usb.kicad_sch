@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "STM32F4 Uno")
+    (date "2023-10-02")
+    (rev "1.0.x-dev")
+    (company "easy-smart solution GmbH")
+  )
+
   (lib_symbols
     (symbol "#Connector:SHOU HAN TYPE-C 16PIN 2MD(073)" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J1" (at -11.43 1.2701 0)

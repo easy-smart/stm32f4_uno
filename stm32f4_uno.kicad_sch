@@ -5,7 +5,10 @@
   (paper "A4")
 
   (title_block
-    (date "mar. 31 mars 2015")
+    (title "STM32F4 Uno")
+    (date "2023-10-02")
+    (rev "1.0.x-dev")
+    (company "easy-smart solution GmbH")
   )
 
   (lib_symbols
@@ -2465,7 +2468,7 @@
     (stroke (width 0) (type solid))
     (uuid 9377eb1a-3b12-438c-8ebd-f86ace1e8d25)
   )
-  (wire (pts (xy 172.72 144.78) (xy 180.975 144.78))
+  (wire (pts (xy 172.72 144.78) (xy 173.99 144.78))
     (stroke (width 0) (type default))
     (uuid 93e71065-e048-4177-9132-cfa50e75aa90)
   )
@@ -2688,6 +2691,10 @@
   (wire (pts (xy 254.635 144.78) (xy 258.445 144.78))
     (stroke (width 0) (type default))
     (uuid ef02a3d3-0921-4474-9d20-c69a7f38d63c)
+  )
+  (wire (pts (xy 179.07 144.78) (xy 180.975 144.78))
+    (stroke (width 0) (type default))
+    (uuid f00734c2-7c24-43fc-9cc1-5606ec80db73)
   )
   (wire (pts (xy 221.615 140.97) (xy 221.615 144.78))
     (stroke (width 0) (type default))
@@ -6191,6 +6198,62 @@
       (project "stm32f4_uno"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "J111") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_Schottky_Small") (at 176.53 144.78 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a2267e92-0087-46b4-9ae2-f9f545bc9823)
+    (property "Reference" "D8" (at 176.784 138.43 0)
+      (effects (font (size 0.9 0.9)))
+    )
+    (property "Value" "SS210" (at 176.784 140.97 0)
+      (effects (font (size 0.9 0.9)))
+    )
+    (property "Footprint" "Diode_SMD:D_SMA" (at 176.53 144.78 90)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_MDD-Microdiode-Electronics--SS210_C14996.pdf" (at 176.53 144.78 90)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Description" "100V 850mV@2A 2A SMA(DO-214AC)  Schottky Barrier Diodes (SBD) ROHS" (at 176.53 144.78 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Manufacturer" "MDD" (at 176.53 144.78 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "Partnumber" "SS210" (at 176.53 144.78 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "JLCPCB Part #" "C14996" (at 176.53 144.78 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (property "isBasicPart" "YES" (at 176.53 144.78 0)
+      (effects (font (size 1 1)) hide)
+    )
+    (pin "1" (uuid 1662c47f-ff1f-4f28-81b5-88a9595b6831))
+    (pin "2" (uuid 26d91db4-3b08-4b12-84bd-ea337312f3b3))
+    (instances
+      (project "stm32f1_nano"
+        (path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "stm32f407vg"
+        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/50c2bb91-d0dc-4111-959e-b2cc7ea59413"
+          (reference "D601") (unit 1)
+        )
+      )
+      (project "basicparts"
+        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
+          (reference "D102") (unit 1)
+        )
+      )
+      (project "stm32f4_uno"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "D106") (unit 1)
         )
       )
     )
