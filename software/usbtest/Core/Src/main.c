@@ -117,33 +117,15 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      /*
-      if(HAL_GetTick() - tick1 >= 5) {
-          tick1=HAL_GetTick();
-          counter+=counterDirection;
-          if(counter >= 65535) {
-              counterDirection = (int8_t)(-1 * abs(counterDirection));
-          }
-          if(counter <= 45000) {
-              counterDirection = (int8_t)abs(counterDirection);
-          }
-          TIM1->CCR1=MIN(65535, counter);
-      }
-       */
-
       if(HAL_GetTick() - tick2 >= 500) {
           tick2=HAL_GetTick();
 
-          if(ledDirection > 0) {
-              ledPattern = ledPattern << 1;
-              if(ledPattern >= 8) ledDirection=-1;
+          if(ledPattern == 5) {
+              ledPattern=10;
           } else {
-              ledPattern = ledPattern >> 1;
-              if(ledPattern <= 1) {
-                  ledDirection=1;
-                  ledPattern=1;
-              }
+              ledPattern=5;
           }
+
           HAL_GPIO_WritePin(J110_8_LED1_GRN_GPIO_Port, J110_8_LED1_GRN_Pin, (ledPattern & 1) ? GPIO_PIN_RESET : GPIO_PIN_SET);
           HAL_GPIO_WritePin(J110_7_LED2_ORG_GPIO_Port, J110_7_LED2_ORG_Pin, (ledPattern & 2) ? GPIO_PIN_RESET : GPIO_PIN_SET);
           HAL_GPIO_WritePin(J110_6_LED3_RED_GPIO_Port, J110_6_LED3_RED_Pin, (ledPattern & 4) ? GPIO_PIN_RESET : GPIO_PIN_SET);
