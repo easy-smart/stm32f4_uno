@@ -127,9 +127,9 @@ int main(void)
               ledPattern = ledPattern >> 1;
               if(ledPattern & 1) ledDirection=1;
           }
-          HAL_GPIO_WritePin(J110_6_LED3_RED_GPIO_Port, J110_6_LED3_RED_Pin, (ledPattern & 1) ? GPIO_PIN_RESET : GPIO_PIN_SET);
+          HAL_GPIO_WritePin(J110_8_LED1_GRN_GPIO_Port, J110_8_LED1_GRN_Pin, (ledPattern & 1) ? GPIO_PIN_RESET : GPIO_PIN_SET);
           HAL_GPIO_WritePin(J110_7_LED2_ORG_GPIO_Port, J110_7_LED2_ORG_Pin, (ledPattern & 2) ? GPIO_PIN_RESET : GPIO_PIN_SET);
-          HAL_GPIO_WritePin(J110_8_LED1_GRN_GPIO_Port, J110_8_LED1_GRN_Pin, (ledPattern & 4) ? GPIO_PIN_RESET : GPIO_PIN_SET);
+          HAL_GPIO_WritePin(J110_6_LED3_RED_GPIO_Port, J110_6_LED3_RED_Pin, (ledPattern & 4) ? GPIO_PIN_RESET : GPIO_PIN_SET);
           HAL_GPIO_WritePin(J110_5_LED4_BLU_GPIO_Port, J110_5_LED4_BLU_Pin, (ledPattern & 8) ? GPIO_PIN_RESET : GPIO_PIN_SET);
       }
 
