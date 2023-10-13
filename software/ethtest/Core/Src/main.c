@@ -18,8 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "eth.h"
+#include "cmsis_os.h"
 #include "i2c.h"
+#include "lwip.h"
 #include "rtc.h"
 #include "spi.h"
 #include "tim.h"
@@ -29,7 +30,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "sockets.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -39,7 +40,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+uint8_t SST26MACAddr[6];
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -63,6 +64,7 @@ const uint8_t EEPROM_SFDP = 0x5a;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+void MX_FREERTOS_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -129,8 +131,6 @@ int main(void)
   MX_TIM4_Init();
   MX_TIM12_Init();
   MX_USART3_UART_Init();
-  MX_USB_DEVICE_Init();
-  MX_ETH_Init();
   /* USER CODE BEGIN 2 */
 
     HAL_GPIO_WritePin(J110_8_LED1_GRN_GPIO_Port,J110_8_LED1_GRN_Pin,GPIO_PIN_SET);
@@ -157,23 +157,27 @@ int main(void)
     // Print out status register
     Debugger_log(DBG, "Status: 0x%x\n", (unsigned int)spi_buf[0]);
 
-    unsigned char EUI48_Octet5, EUI48_Octet4, EUI48_Octet3, EUI48_Octet2, EUI48_Octet1, EUI48_Octet0;
-    EUI48_Octet0=SPI_SFDP_Read(0x261);
-    EUI48_Octet1=SPI_SFDP_Read(0x262);
-    EUI48_Octet2=SPI_SFDP_Read(0x263);
-    EUI48_Octet3=SPI_SFDP_Read(0x264);
-    EUI48_Octet4=SPI_SFDP_Read(0x265);
-    EUI48_Octet5=SPI_SFDP_Read(0x266);
+
+    SST26MACAddr[0]=SPI_SFDP_Read(0x261);
+    SST26MACAddr[1]=SPI_SFDP_Read(0x262);
+    SST26MACAddr[2]=SPI_SFDP_Read(0x263);
+    SST26MACAddr[3]=SPI_SFDP_Read(0x264);
+    SST26MACAddr[4]=SPI_SFDP_Read(0x265);
+    SST26MACAddr[5]=SPI_SFDP_Read(0x266);
 
     // Print out MAC address
-    Debugger_log(DBG, "MAC: %02x:%02x:%02x:%02x:%02x:%02x\n", (unsigned int)EUI48_Octet0, (unsigned int)EUI48_Octet1, (unsigned int)EUI48_Octet2, (unsigned int)EUI48_Octet3, (unsigned int)EUI48_Octet4, (unsigned int)EUI48_Octet5);
+    Debugger_log(DBG, "SST26 MAC: %02x:%02x:%02x:%02x:%02x:%02x\n", (unsigned int)SST26MACAddr[0], (unsigned int)SST26MACAddr[1], (unsigned int)SST26MACAddr[2], (unsigned int)SST26MACAddr[3], (unsigned int)SST26MACAddr[4], (unsigned int)SST26MACAddr[5]);
 
+  /* USER CODE END 2 */
 
+  /* Init scheduler */
+  osKernelInitialize();  /* Call init function for freertos objects (in freertos.c) */
+  MX_FREERTOS_Init();
 
+  /* Start scheduler */
+  osKernelStart();
 
-
-    /* USER CODE END 2 */
-
+  /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -234,6 +238,27 @@ void SystemClock_Config(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
+
+/**
+  * @brief  Period elapsed callback in non blocking mode
+  * @note   This function is called  when TIM14 interrupt took place, inside
+  * HAL_TIM_IRQHandler(). It makes a direct call to HAL_IncTick() to increment
+  * a global variable "uwTick" used as application time base.
+  * @param  htim : TIM handle
+  * @retval None
+  */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+  /* USER CODE BEGIN Callback 0 */
+
+  /* USER CODE END Callback 0 */
+  if (htim->Instance == TIM14) {
+    HAL_IncTick();
+  }
+  /* USER CODE BEGIN Callback 1 */
+
+  /* USER CODE END Callback 1 */
+}
 
 /**
   * @brief  This function is executed in case of error occurrence.

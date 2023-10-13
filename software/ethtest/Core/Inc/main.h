@@ -172,6 +172,7 @@ void Error_Handler(void);
 
 /* USER CODE BEGIN Private defines */
 static Debugger* DBG=NULL;
+extern uint8_t SST26MACAddr[6];
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
