@@ -61,6 +61,13 @@ const osThreadAttr_t telnetTask_attributes = {
   .stack_size = 128 * 4,
   .priority = (osPriority_t) osPriorityLow,
 };
+/* Definitions for echoTask */
+osThreadId_t echoTaskHandle;
+const osThreadAttr_t echoTask_attributes = {
+  .name = "echoTask",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityNormal,
+};
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -69,6 +76,7 @@ const osThreadAttr_t telnetTask_attributes = {
 
 void StartDefaultTask(void *argument);
 extern void StartTelnetTask(void *argument);
+extern void StartEchoTask(void *argument);
 
 extern void MX_USB_DEVICE_Init(void);
 extern void MX_LWIP_Init(void);
@@ -106,6 +114,9 @@ void MX_FREERTOS_Init(void) {
 
   /* creation of telnetTask */
   telnetTaskHandle = osThreadNew(StartTelnetTask, NULL, &telnetTask_attributes);
+
+  /* creation of echoTask */
+  echoTaskHandle = osThreadNew(StartEchoTask, NULL, &echoTask_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
