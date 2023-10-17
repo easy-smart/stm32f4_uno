@@ -2817,7 +2817,7 @@
     (effects (font (size 1 1)) (justify right bottom))
     (uuid 86974cc3-f724-4daf-9ab6-9f94b60ef027)
   )
-  (text "* Indicates a PWM-capable pin" (at 177.8 180.34 0)
+  (text "* Indicates a PWM-capable pin" (at 178.435 169.545 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c364973a-9a67-4667-8185-a3a5c6c6cbdf)
   )
