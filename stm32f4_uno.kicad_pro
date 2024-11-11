@@ -60,11 +60,6 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|130196000|49225000|00000000-0000-0000-0000-0000551afd43|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|136815000|97485000|00000000-0000-0000-0000-0000551afcfc|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|154595000|49225000|00000000-0000-0000-0000-0000551afd5a|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|154991000|85141000|44721179-1619-4a86-b669-c7ec80cf70bb|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|157125000|97485000|00000000-0000-0000-0000-0000551afd13|00000000-0000-0000-0000-000000000000",
         "silk_edge_clearance|100000000|87780000|16738e8d-f64a-4520-b480-307e17fc6e64|25ded6be-af5d-48d4-b888-09cd64b4209f",
         "silk_edge_clearance|100000000|96980000|16738e8d-f64a-4520-b480-307e17fc6e64|7348d1f6-87d0-4f45-8775-a69c26149652",
         "silk_edge_clearance|164710000|47870000|a1531b39-8dae-4637-9a8d-49791182f594|d9865338-d0b8-43dc-a482-232c73779af2",
@@ -654,13 +649,61 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Partnumber",
+          "name": "Partnumber",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "isBasicPart",
+          "name": "isBasicPart",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

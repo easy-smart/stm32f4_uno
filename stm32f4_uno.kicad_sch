@@ -685,6 +685,203 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
@@ -5601,7 +5798,7 @@
 		(uuid "abc83936-4584-425c-a5c0-177bff261fa1")
 	)
 	(junction
-		(at 184.785 37.465)
+		(at 174.625 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abe9f8eb-1d27-491d-becc-b6168f3630df")
@@ -5715,7 +5912,7 @@
 		(uuid "ecbbb995-b417-4fcb-b3af-e6a74bc249d4")
 	)
 	(junction
-		(at 176.53 51.435)
+		(at 166.37 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f371f897-6970-4064-94cb-b5c4c2221718")
@@ -5735,12 +5932,28 @@
 		(uuid "262669f6-f9c3-4c14-9c4c-7429f555d0a6")
 	)
 	(no_connect
+		(at 234.95 36.83)
+		(uuid "64330dec-debe-4f15-be9b-3659ba19cbce")
+	)
+	(no_connect
 		(at 106.68 62.865)
 		(uuid "6d5fd7b1-ebb0-488f-9170-a5a0cdf25036")
 	)
 	(no_connect
+		(at 234.95 39.37)
+		(uuid "95abbda1-8c50-444b-9ae0-102d1041c25f")
+	)
+	(no_connect
+		(at 234.95 34.29)
+		(uuid "c3d197fc-5f7a-45ca-989e-1f59511c141a")
+	)
+	(no_connect
 		(at 191.135 129.54)
 		(uuid "cc79cf93-d932-4595-a9a6-cb0001c4aafa")
+	)
+	(no_connect
+		(at 234.95 31.75)
+		(uuid "dca55d83-b2e3-429a-a6c4-6d25e4b5124a")
 	)
 	(no_connect
 		(at 206.375 116.84)
@@ -5918,7 +6131,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 78.105) (xy 184.785 78.105)
+			(xy 161.925 74.93) (xy 174.625 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5938,7 +6151,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 50.165) (xy 176.53 51.435)
+			(xy 166.37 46.99) (xy 166.37 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6008,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 40.005) (xy 184.785 40.005)
+			(xy 166.37 36.83) (xy 174.625 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +6251,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 37.465) (xy 184.785 37.465)
+			(xy 166.37 34.29) (xy 174.625 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6178,7 +6391,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 65.405) (xy 172.085 65.405)
+			(xy 174.625 62.23) (xy 161.925 62.23)
 		)
 		(stroke
 			(width 0)
@@ -6208,7 +6421,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 47.625) (xy 184.785 47.625)
+			(xy 166.37 44.45) (xy 174.625 44.45)
 		)
 		(stroke
 			(width 0)
@@ -6288,7 +6501,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 50.165) (xy 184.785 50.165)
+			(xy 166.37 46.99) (xy 174.625 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6298,7 +6511,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 52.705) (xy 184.785 52.705)
+			(xy 166.37 49.53) (xy 174.625 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6448,7 +6661,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 45.085) (xy 184.785 45.085)
+			(xy 166.37 41.91) (xy 174.625 41.91)
 		)
 		(stroke
 			(width 0)
@@ -6508,7 +6721,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 55.245) (xy 184.785 55.245)
+			(xy 166.37 52.07) (xy 174.625 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6538,7 +6751,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 42.545) (xy 184.785 42.545)
+			(xy 166.37 39.37) (xy 174.625 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6588,7 +6801,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 70.485) (xy 172.085 70.485)
+			(xy 174.625 67.31) (xy 161.925 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6738,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 67.945) (xy 184.785 67.945)
+			(xy 161.925 64.77) (xy 174.625 64.77)
 		)
 		(stroke
 			(width 0)
@@ -6978,7 +7191,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 73.025) (xy 184.785 73.025)
+			(xy 161.925 69.85) (xy 174.625 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7258,7 +7471,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 75.565) (xy 172.085 75.565)
+			(xy 174.625 72.39) (xy 161.925 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7278,7 +7491,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 51.435) (xy 176.53 52.705)
+			(xy 166.37 48.26) (xy 166.37 49.53)
 		)
 		(stroke
 			(width 0)
@@ -7347,7 +7560,7 @@
 	)
 	(text "A1"
 		(exclude_from_sim no)
-		(at 172.085 67.945 0)
+		(at 161.925 64.77 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7358,7 +7571,7 @@
 	)
 	(text "SDA/A4"
 		(exclude_from_sim no)
-		(at 172.085 75.565 0)
+		(at 161.925 72.39 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7424,7 +7637,7 @@
 	)
 	(text "A3"
 		(exclude_from_sim no)
-		(at 172.085 73.025 0)
+		(at 161.925 69.85 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7457,7 +7670,7 @@
 	)
 	(text "SCL/A5"
 		(exclude_from_sim no)
-		(at 172.085 78.105 0)
+		(at 161.925 74.93 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7468,7 +7681,7 @@
 	)
 	(text "A0"
 		(exclude_from_sim no)
-		(at 172.085 65.405 0)
+		(at 161.925 62.23 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7545,7 +7758,7 @@
 	)
 	(text "A2"
 		(exclude_from_sim no)
-		(at 172.085 70.485 0)
+		(at 161.925 67.31 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7589,7 +7802,7 @@
 	)
 	(text "IOREF"
 		(exclude_from_sim no)
-		(at 176.53 40.005 0)
+		(at 166.37 36.83 0)
 		(effects
 			(font
 				(size 1 1)
@@ -7654,7 +7867,7 @@
 		(uuid "041b9b3f-fb81-4f7b-8d53-9c46c839890a")
 	)
 	(label "PB8"
-		(at 199.39 47.625 180)
+		(at 189.23 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7720,7 +7933,7 @@
 		(uuid "0d8d70c0-48c5-4d64-bc86-3b7f73fa95f0")
 	)
 	(label "VBAT"
-		(at 184.785 37.465 180)
+		(at 174.625 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7731,7 +7944,7 @@
 		(uuid "0dd33b3e-dfe0-4d01-9de7-548eaf62a6b0")
 	)
 	(label "PD0"
-		(at 215.9 44.45 270)
+		(at 205.74 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7863,7 +8076,7 @@
 		(uuid "17fbba54-8431-43ad-9b72-acda0c0243b7")
 	)
 	(label "PE5"
-		(at 184.785 67.945 180)
+		(at 174.625 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7874,7 +8087,7 @@
 		(uuid "1a44954b-5d02-4fdd-9466-65c3bc2c6015")
 	)
 	(label "PB9"
-		(at 184.785 75.565 180)
+		(at 174.625 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7885,7 +8098,7 @@
 		(uuid "1b2783b1-e610-49db-bbad-6297ace7fcec")
 	)
 	(label "PE4"
-		(at 199.39 65.405 180)
+		(at 189.23 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7929,7 +8142,7 @@
 		(uuid "1f48c007-82e9-4b69-b6a4-3ddb928ad357")
 	)
 	(label "PC13"
-		(at 184.785 70.485 180)
+		(at 174.625 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7951,7 +8164,7 @@
 		(uuid "21468087-115c-47c2-89a4-d3e6832425d4")
 	)
 	(label "PC8"
-		(at 226.06 26.67 90)
+		(at 215.9 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8050,7 +8263,7 @@
 		(uuid "2ca12068-7a6e-48fb-942b-953f5625a71c")
 	)
 	(label "PD7"
-		(at 199.39 42.545 180)
+		(at 189.23 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8072,7 +8285,7 @@
 		(uuid "2f92019b-3a26-41c7-81d1-7c687c613f02")
 	)
 	(label "PD4"
-		(at 199.39 34.925 180)
+		(at 189.23 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8127,7 +8340,7 @@
 		(uuid "337b8bf6-05ae-4524-bbf8-6c880bc3e27f")
 	)
 	(label "PC11"
-		(at 218.44 44.45 270)
+		(at 208.28 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8138,7 +8351,7 @@
 		(uuid "33c0aebf-316f-4373-898e-a19cce8c04b6")
 	)
 	(label "PA8"
-		(at 223.52 26.67 90)
+		(at 213.36 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8149,7 +8362,7 @@
 		(uuid "3b021f36-e2e8-4834-8e34-447361c3d39d")
 	)
 	(label "PD2"
-		(at 213.36 44.45 270)
+		(at 203.2 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8171,7 +8384,7 @@
 		(uuid "3dd79d5b-f000-41de-b3c8-7231493c8121")
 	)
 	(label "PC12{slash}LED3_RED"
-		(at 218.44 26.67 90)
+		(at 208.28 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8182,7 +8395,7 @@
 		(uuid "3f2fa8a2-1818-4d5e-b735-d23c6906060d")
 	)
 	(label "PD3{slash}LED1_GRN"
-		(at 213.36 26.67 90)
+		(at 203.2 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8215,7 +8428,7 @@
 		(uuid "4904fada-a7e8-411e-953b-c96922e7eeea")
 	)
 	(label "~{RESET}"
-		(at 184.785 42.545 180)
+		(at 174.625 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8237,7 +8450,7 @@
 		(uuid "4a165b65-d929-48ef-a881-f7da55565818")
 	)
 	(label "PC7"
-		(at 226.06 44.45 270)
+		(at 215.9 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8402,7 +8615,7 @@
 		(uuid "6928dee5-a4d2-472b-a6f4-421b8d4306cb")
 	)
 	(label "PB6"
-		(at 184.785 78.105 180)
+		(at 174.625 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8413,7 +8626,7 @@
 		(uuid "69639646-af7b-4b5f-9b84-5c16bcc2ba58")
 	)
 	(label "PE0"
-		(at 199.39 50.165 180)
+		(at 189.23 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8479,7 +8692,7 @@
 		(uuid "77e31875-db0c-47ca-90c6-00265665dc74")
 	)
 	(label "PD14"
-		(at 231.14 26.67 90)
+		(at 220.98 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8545,7 +8758,7 @@
 		(uuid "812f6fb8-6e62-4ae8-9b70-bb8edc363ebb")
 	)
 	(label "PC0"
-		(at 199.39 70.485 180)
+		(at 189.23 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8556,7 +8769,7 @@
 		(uuid "81d9505b-bc83-4c68-815e-a07b81af3412")
 	)
 	(label "PD5"
-		(at 199.39 37.465 180)
+		(at 189.23 34.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8578,7 +8791,7 @@
 		(uuid "8953bd7d-6521-4be0-977f-82c24eecbe93")
 	)
 	(label "PE6"
-		(at 199.39 67.945 180)
+		(at 189.23 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8655,7 +8868,7 @@
 		(uuid "91fda196-0604-490a-b250-cfde86b0e360")
 	)
 	(label "PC9"
-		(at 223.52 44.45 270)
+		(at 213.36 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8853,7 +9066,7 @@
 		(uuid "ae8ba85d-3256-495a-afcf-177917f87971")
 	)
 	(label "PE3"
-		(at 184.785 65.405 180)
+		(at 174.625 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8864,7 +9077,7 @@
 		(uuid "af0847a2-23aa-44fe-a3f1-cca3f570689f")
 	)
 	(label "PB4"
-		(at 199.39 45.085 180)
+		(at 189.23 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8952,7 +9165,7 @@
 		(uuid "b8cfcd82-7ef8-4241-b258-f1421d502313")
 	)
 	(label "PC6"
-		(at 228.6 26.67 90)
+		(at 218.44 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9051,7 +9264,7 @@
 		(uuid "c30a6ef0-2a0a-47bd-af42-6bcfd165d223")
 	)
 	(label "V_{IN}"
-		(at 184.785 55.245 180)
+		(at 174.625 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9117,7 +9330,7 @@
 		(uuid "c9463c01-e4ec-4fb6-b0c5-83d8a5baf579")
 	)
 	(label "PE2"
-		(at 199.39 62.865 180)
+		(at 189.23 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9282,7 +9495,7 @@
 		(uuid "db19bf3b-868e-4cf4-a09a-10837f2b8911")
 	)
 	(label "PC10{slash}LED4_BLU"
-		(at 220.98 26.67 90)
+		(at 210.82 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9293,7 +9506,7 @@
 		(uuid "db30bec2-a539-407d-bb7b-b4e60bd49b40")
 	)
 	(label "PE1"
-		(at 199.39 52.705 180)
+		(at 189.23 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9392,7 +9605,7 @@
 		(uuid "e4a91c82-ff57-4897-89f4-582b2b59185b")
 	)
 	(label "PD6"
-		(at 199.39 40.005 180)
+		(at 189.23 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9403,7 +9616,7 @@
 		(uuid "e4aaa047-d803-4ea4-9f7b-ba41fe4cebea")
 	)
 	(label "PA0"
-		(at 199.39 75.565 180)
+		(at 189.23 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9502,7 +9715,7 @@
 		(uuid "f5b718bf-cb75-4032-87b9-588b18b337d8")
 	)
 	(label "PA15"
-		(at 220.98 44.45 270)
+		(at 210.82 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9546,7 +9759,7 @@
 		(uuid "faf19def-d991-40d9-a73a-24a8ad5079cc")
 	)
 	(label "PC2"
-		(at 184.785 73.025 180)
+		(at 174.625 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9557,7 +9770,7 @@
 		(uuid "faf66946-9749-4204-9379-94f20b0e1559")
 	)
 	(label "PC3"
-		(at 199.39 73.025 180)
+		(at 189.23 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9579,7 +9792,7 @@
 		(uuid "fbe2a51e-26eb-4a48-891f-7fbec05d25c5")
 	)
 	(label "PD1{slash}LED2_ORG"
-		(at 215.9 26.67 90)
+		(at 205.74 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9590,7 +9803,7 @@
 		(uuid "fda7ab48-0f88-44c1-b8d2-268395f0a28c")
 	)
 	(label "PD15"
-		(at 228.6 44.45 270)
+		(at 218.44 44.45 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9625,7 +9838,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 189.865 45.085 0)
+		(at 179.705 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9633,7 +9846,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d71773")
 		(property "Reference" "J106"
-			(at 189.865 34.925 0)
+			(at 179.705 31.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9641,7 +9854,7 @@
 			)
 		)
 		(property "Value" "Power"
-			(at 192.405 45.085 90)
+			(at 182.245 41.91 90)
 			(effects
 				(font
 					(size 1 1)
@@ -9649,7 +9862,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9658,7 +9871,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9666,7 +9879,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9675,7 +9888,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9684,7 +9897,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9693,7 +9906,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9915,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +9924,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9933,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9729,7 +9942,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9951,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 189.865 45.085 0)
+			(at 179.705 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9781,7 +9994,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 51.435 270)
+		(at 166.37 48.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9789,7 +10002,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d721e6")
 		(property "Reference" "#PWR0118"
-			(at 170.18 51.435 0)
+			(at 160.02 48.26 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9798,7 +10011,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.085 51.435 90)
+			(at 161.925 48.26 90)
 			(effects
 				(font
 					(size 1 1)
@@ -9806,7 +10019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 51.435 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9814,7 +10027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 51.435 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1 1)
@@ -9822,7 +10035,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 51.435 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10007,7 +10220,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 189.865 70.485 0)
+		(at 179.705 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10015,7 +10228,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000056d72f1c")
 		(property "Reference" "J110"
-			(at 189.865 62.865 0)
+			(at 179.705 59.69 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10023,7 +10236,7 @@
 			)
 		)
 		(property "Value" "Analog"
-			(at 192.405 70.485 90)
+			(at 182.245 67.31 90)
 			(effects
 				(font
 					(size 1 1)
@@ -10031,7 +10244,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10040,7 +10253,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10049,7 +10262,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10271,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10067,7 +10280,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10076,7 +10289,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10085,7 +10298,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10094,7 +10307,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10103,7 +10316,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10112,7 +10325,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10334,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 189.865 70.485 0)
+			(at 179.705 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10916,7 +11129,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 223.52 31.75 270)
+		(at 213.36 31.75 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10924,7 +11137,7 @@
 		(dnp no)
 		(uuid "194ba539-346b-4350-aab9-e2009a267387")
 		(property "Reference" "J101"
-			(at 233.68 31.75 0)
+			(at 223.52 31.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10932,7 +11145,7 @@
 			)
 		)
 		(property "Value" "STM32 GPIO"
-			(at 223.52 34.29 90)
+			(at 213.36 34.29 90)
 			(effects
 				(font
 					(size 1 1)
@@ -10940,7 +11153,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10949,7 +11162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1 1)
@@ -10957,7 +11170,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,7 +11179,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +11188,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,7 +11197,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10993,7 +11206,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11002,7 +11215,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11011,7 +11224,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11020,7 +11233,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11029,7 +11242,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 223.52 31.75 0)
+			(at 213.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12232,6 +12445,109 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 200.66 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4573c0bc-0305-4da8-a445-71f10116b411")
+		(property "Reference" "#FLG01"
+			(at 200.66 146.685 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 200.66 149.86 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" ""
+			(at 200.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "605fa1d8-3fe1-4bb4-9768-a5f631f74e80")
+		)
+		(instances
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "#Connector:CUI Devices PJ-102AH")
 		(at 165.1 147.32 0)
 		(unit 1)
@@ -12824,7 +13140,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 176.53 40.005 90)
+		(at 166.37 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12832,7 +13148,7 @@
 		(dnp no)
 		(uuid "5480d8ea-594c-4ee5-8c3d-3dbcb5ff3ac1")
 		(property "Reference" "#PWR0111"
-			(at 180.34 40.005 0)
+			(at 170.18 36.83 0)
 			(effects
 				(font
 					(size 1 1)
@@ -12841,7 +13157,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 171.45 40.005 90)
+			(at 161.29 36.83 90)
 			(effects
 				(font
 					(size 1 1)
@@ -12849,7 +13165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 40.005 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12858,7 +13174,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 40.005 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12867,7 +13183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 40.005 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,7 +14138,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 176.53 47.625 90)
+		(at 166.37 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13830,7 +14146,7 @@
 		(dnp no)
 		(uuid "6bb996e4-fde8-4078-acc6-0ca0ba939f06")
 		(property "Reference" "#PWR036"
-			(at 180.34 47.625 0)
+			(at 170.18 44.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13839,7 +14155,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 171.45 47.625 90)
+			(at 161.29 44.45 90)
 			(effects
 				(font
 					(size 1 1)
@@ -13847,7 +14163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 47.625 0)
+			(at 166.37 44.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13856,7 +14172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 47.625 0)
+			(at 166.37 44.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -13865,7 +14181,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 47.625 0)
+			(at 166.37 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14133,7 +14449,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 223.52 39.37 270)
+		(at 213.36 39.37 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14142,7 +14458,7 @@
 		(dnp no)
 		(uuid "714b935e-d4db-4eb0-9a25-cfbf16b67fd9")
 		(property "Reference" "J103"
-			(at 233.68 39.37 0)
+			(at 223.52 39.37 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14150,7 +14466,7 @@
 			)
 		)
 		(property "Value" "STM32 GPIO"
-			(at 223.52 36.83 90)
+			(at 213.36 36.83 90)
 			(effects
 				(font
 					(size 1 1)
@@ -14158,7 +14474,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14167,7 +14483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14175,7 +14491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14184,7 +14500,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14193,7 +14509,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14202,7 +14518,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14211,7 +14527,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14220,7 +14536,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +14545,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14238,7 +14554,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,7 +14563,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 223.52 39.37 0)
+			(at 213.36 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14435,7 +14751,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 44.45 0)
+		(at 220.98 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14443,7 +14759,7 @@
 		(dnp no)
 		(uuid "77e31b8c-0d4e-4cbc-869c-acff10d61fac")
 		(property "Reference" "#PWR0113"
-			(at 231.14 50.8 0)
+			(at 220.98 50.8 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14452,7 +14768,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 48.895 90)
+			(at 220.98 48.895 90)
 			(effects
 				(font
 					(size 1 1)
@@ -14460,7 +14776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14468,7 +14784,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1 1)
@@ -14476,7 +14792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 44.45 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15681,7 +15997,7 @@
 			)
 			(project "stm32f4_uno"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J111")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -15811,7 +16127,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 204.47 42.545 0)
+		(at 194.31 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15819,7 +16135,7 @@
 		(dnp no)
 		(uuid "a4a396eb-57eb-4aaa-a3af-534d7d0d3a04")
 		(property "Reference" "J105"
-			(at 204.47 32.385 0)
+			(at 194.31 29.21 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15827,7 +16143,7 @@
 			)
 		)
 		(property "Value" "STM32 GPIO"
-			(at 207.01 42.545 90)
+			(at 196.85 39.37 90)
 			(effects
 				(font
 					(size 1 1)
@@ -15835,7 +16151,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15844,7 +16160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1 1)
@@ -15852,7 +16168,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +16177,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +16186,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15879,7 +16195,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15888,7 +16204,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15897,7 +16213,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15906,7 +16222,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15915,7 +16231,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15924,7 +16240,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 204.47 42.545 0)
+			(at 194.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16577,6 +16893,153 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 229.87 34.29 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c016bf77-6515-43a2-97c9-108f019b8073")
+		(property "Reference" "J111"
+			(at 229.87 25.4 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 229.87 27.94 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" ""
+			(at 229.87 34.29 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bee7b203-07cf-4696-88af-676892315357")
+		)
+		(pin "2"
+			(uuid "b6a636b6-5b7f-47e2-b5f3-21a7bd945e2d")
+		)
+		(pin "3"
+			(uuid "ccb34b42-0caa-46da-8235-a8b118719b4e")
+		)
+		(pin "4"
+			(uuid "9347d3b7-bdaa-422e-9f0f-11dfc8b0c0e2")
+		)
+		(instances
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 107.315 28.575 0)
 		(unit 1)
@@ -16704,7 +17167,7 @@
 	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 176.53 45.085 90)
+		(at 166.37 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16712,7 +17175,7 @@
 		(dnp no)
 		(uuid "c3a972c6-d41b-427d-a500-843217624a66")
 		(property "Reference" "#PWR0114"
-			(at 180.34 45.085 0)
+			(at 170.18 41.91 0)
 			(effects
 				(font
 					(size 1 1)
@@ -16721,7 +17184,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 171.45 45.085 90)
+			(at 161.29 41.91 90)
 			(effects
 				(font
 					(size 1 1)
@@ -16729,7 +17192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 45.085 0)
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16738,7 +17201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 45.085 0)
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16747,7 +17210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 45.085 0)
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17179,7 +17642,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 204.47 67.945 0)
+		(at 194.31 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -17187,7 +17650,7 @@
 		(dnp no)
 		(uuid "cfd84465-5e45-4213-b77d-b344ff0d5793")
 		(property "Reference" "J108"
-			(at 204.47 60.325 0)
+			(at 194.31 57.15 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17195,7 +17658,7 @@
 			)
 		)
 		(property "Value" "STM32 GPIO"
-			(at 207.01 67.945 90)
+			(at 196.85 64.77 90)
 			(effects
 				(font
 					(size 1 1)
@@ -17203,7 +17666,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17212,7 +17675,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17221,7 +17684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17230,7 +17693,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17239,7 +17702,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17248,7 +17711,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17257,7 +17720,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17266,7 +17729,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17275,7 +17738,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17284,7 +17747,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17293,7 +17756,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 204.47 67.945 0)
+			(at 194.31 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17621,7 +18084,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 184.785 37.465 90)
+		(at 174.625 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17630,7 +18093,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1f6608a-903d-4969-b2f8-8ff1cfd58763")
 		(property "Reference" "#FLG0102"
-			(at 182.88 37.465 0)
+			(at 172.72 34.29 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17639,7 +18102,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 179.705 37.465 0)
+			(at 169.545 34.29 0)
 			(effects
 				(font
 					(size 1 1)
@@ -17648,7 +18111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17657,7 +18120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17666,7 +18129,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17675,7 +18138,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17684,7 +18147,7 @@
 			)
 		)
 		(property "Partnumber" ""
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17693,7 +18156,7 @@
 			)
 		)
 		(property "JLCPCB Part #" ""
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17702,7 +18165,7 @@
 			)
 		)
 		(property "isBasicPart" ""
-			(at 184.785 37.465 0)
+			(at 174.625 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
