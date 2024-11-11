@@ -7326,6 +7326,25 @@
 		)
 		(uuid "ff31dfcd-c949-43b4-93b3-f3a971539d85")
 	)
+	(text_box "Note: USART1 wiring may not be standard\nPB7 used instead of PA10"
+		(exclude_from_sim no)
+		(at 140.97 102.87 0)
+		(size 30.48 15.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "18b02e34-98b9-4b74-9a23-61d7ae031508")
+	)
 	(text "A1"
 		(exclude_from_sim no)
 		(at 172.085 67.945 0)
