@@ -1,671 +1,1524 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid fb33549c-6dc7-44f3-b7ee-3ecd39fe3801)
-
-  (paper "A4")
-
-  (title_block
-    (title "STM32F4 Uno")
-    (date "2023-10-17")
-    (rev "1.1.x-dev")
-    (company "easy-smart solution GmbH")
-  )
-
-  (lib_symbols
-    (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.254 1.778 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_Small" (at 0.254 -2.032 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "capacitor cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_Small_0_1"
-        (polyline
-          (pts
-            (xy -1.524 -0.508)
-            (xy 1.524 -0.508)
-          )
-          (stroke (width 0.3302) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.524 0.508)
-            (xy 1.524 0.508)
-          )
-          (stroke (width 0.3048) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 2.032)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:LED_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at -1.27 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "LED_Small" (at -4.445 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "LED diode light-emitting-diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Light emitting diode, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_Small_0_1"
-        (polyline
-          (pts
-            (xy -0.762 -1.016)
-            (xy -0.762 1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0)
-            (xy -0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.016)
-            (xy -0.762 0)
-            (xy 0.762 1.016)
-            (xy 0.762 -1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.762)
-            (xy -0.508 1.27)
-            (xy -0.254 1.27)
-            (xy -0.508 1.27)
-            (xy -0.508 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.508 1.27)
-            (xy 0 1.778)
-            (xy 0.254 1.778)
-            (xy 0 1.778)
-            (xy 0 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "LED_Small_1_1"
-        (pin passive line (at -2.54 0 0) (length 1.778)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 0 180) (length 1.778)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 0.762 0.508 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_Small" (at 0.762 -1.016 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor, small symbol" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_Small_0_1"
-        (rectangle (start -0.762 1.778) (end 0.762 -1.778)
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_Small_1_1"
-        (pin passive line (at 0 2.54 270) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -2.54 90) (length 0.762)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Regulator_Linear:AMS1117-3.3" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -3.81 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AMS1117-3.3" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 2.54 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "linear regulator ldo fixed positive" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?223*TabPin2*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AMS1117-3.3_0_1"
-        (rectangle (start -5.08 -5.08) (end 5.08 1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "AMS1117-3.3_1_1"
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 0 180) (length 2.54)
-          (name "VO" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 0 0) (length 2.54)
-          (name "VI" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 71.755 48.26) (diameter 0) (color 0 0 0 0)
-    (uuid 121602b1-ca64-4ec1-8639-1388ca3d9787)
-  )
-  (junction (at 58.42 48.26) (diameter 0) (color 0 0 0 0)
-    (uuid 59e11a4b-dd9e-4559-aed1-bd56a7b15f91)
-  )
-  (junction (at 71.755 38.1) (diameter 0) (color 0 0 0 0)
-    (uuid a88443b3-ada9-45ab-823a-698babb51ea5)
-  )
-  (junction (at 46.355 38.1) (diameter 0) (color 0 0 0 0)
-    (uuid b61cbe8f-f82e-4d9c-a52a-66efb21f1076)
-  )
-
-  (wire (pts (xy 46.355 40.005) (xy 46.355 38.1))
-    (stroke (width 0) (type default))
-    (uuid 154298d1-73e3-4292-95ae-fd2e626ae20a)
-  )
-  (wire (pts (xy 71.755 48.26) (xy 84.455 48.26))
-    (stroke (width 0) (type default))
-    (uuid 327e51ed-ead4-4c90-a07d-cbe49bc7d4ce)
-  )
-  (wire (pts (xy 58.42 48.26) (xy 58.42 51.435))
-    (stroke (width 0) (type default))
-    (uuid 4a290d54-6094-479f-9cd9-3c33f2c9c7cd)
-  )
-  (wire (pts (xy 71.755 30.48) (xy 71.755 38.1))
-    (stroke (width 0) (type default))
-    (uuid 59b2c052-c8fd-47e6-a50e-034f3170cde9)
-  )
-  (wire (pts (xy 71.755 38.1) (xy 71.755 40.005))
-    (stroke (width 0) (type default))
-    (uuid 6c331e67-646d-4be3-9258-7c1634fa2593)
-  )
-  (wire (pts (xy 46.355 48.26) (xy 58.42 48.26))
-    (stroke (width 0) (type default))
-    (uuid 86c0cc5c-b62f-456e-8757-7b92936e1d82)
-  )
-  (wire (pts (xy 58.42 48.26) (xy 71.755 48.26))
-    (stroke (width 0) (type default))
-    (uuid 8c85b598-9835-4973-9e5c-50a88c54e904)
-  )
-  (wire (pts (xy 46.355 38.1) (xy 50.8 38.1))
-    (stroke (width 0) (type default))
-    (uuid a35acc7e-290d-41ad-ae52-9961643305d0)
-  )
-  (wire (pts (xy 58.42 48.26) (xy 58.42 45.72))
-    (stroke (width 0) (type default))
-    (uuid b048de78-9f2e-4b45-be2c-ca5b91b81dd4)
-  )
-  (wire (pts (xy 71.755 45.085) (xy 71.755 48.26))
-    (stroke (width 0) (type default))
-    (uuid c93e7569-c426-430c-9557-61a21fd488ce)
-  )
-  (wire (pts (xy 71.755 38.1) (xy 78.74 38.1))
-    (stroke (width 0) (type default))
-    (uuid ccae13dd-1405-409e-ac5a-9c06891e677f)
-  )
-  (wire (pts (xy 46.355 30.48) (xy 46.355 38.1))
-    (stroke (width 0) (type default))
-    (uuid cd0acd0a-d9ec-46df-9011-23e627d3382b)
-  )
-  (wire (pts (xy 84.455 46.355) (xy 84.455 48.26))
-    (stroke (width 0) (type default))
-    (uuid cff6ae5f-5915-4a48-a578-99ffdc73cb05)
-  )
-  (wire (pts (xy 46.355 45.085) (xy 46.355 48.26))
-    (stroke (width 0) (type default))
-    (uuid d6a413b7-5bdc-4ecc-9687-0191ba895621)
-  )
-  (wire (pts (xy 84.455 38.1) (xy 83.82 38.1))
-    (stroke (width 0) (type default))
-    (uuid dcc769f9-bbd4-4431-a350-9b8416de2f14)
-  )
-  (wire (pts (xy 66.04 38.1) (xy 71.755 38.1))
-    (stroke (width 0) (type default))
-    (uuid f44ca186-1a79-462b-b0f0-565297503115)
-  )
-  (wire (pts (xy 84.455 41.275) (xy 84.455 38.1))
-    (stroke (width 0) (type default))
-    (uuid fb7a3b76-2896-4902-aaa6-3019fe1c9a56)
-  )
-
-  (text_box "VIN: 4.8V..15.3V\nIOUT: max. 1A"
-    (at 20.32 40.005 0) (size 17.78 5.08)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid 76f40b60-c5c4-4086-beec-ef34649f2a88)
-  )
-
-  (hierarchical_label "GND" (shape bidirectional) (at 58.42 51.435 270) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify right))
-    (uuid 357c521f-9a39-41b0-b0ae-9f12e8566296)
-  )
-  (hierarchical_label "+5V" (shape input) (at 46.355 30.48 90) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left))
-    (uuid 5c304639-70d6-478a-8fcc-a5fcc6effea2)
-  )
-  (hierarchical_label "+3V3" (shape output) (at 71.755 30.48 90) (fields_autoplaced)
-    (effects (font (size 1 1)) (justify left))
-    (uuid 7e4c3561-7560-4a80-bbf5-4d082f238077)
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 71.755 42.545 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 45182fbe-f546-4479-913f-49443c7e6e2f)
-    (property "Reference" "C16" (at 71.12 40.64 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "22u 25V" (at 71.12 44.45 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Description" "25V 22uF X5R ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "JLCPCB Part #" "C45783" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer_Name" "Samsung Electro-Mechanics" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer_Part_Number" "CL21A226MAQNNNE" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Partnumber" "CL21A226MAQNNNE" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "isBasicPart" "YES" (at 71.755 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 796550a1-3edf-46b6-8561-be5d5b48af41))
-    (pin "2" (uuid 506d2895-0f76-4d70-9654-3d5beafb884e))
-    (instances
-      (project "stm32f1_nano"
-        (path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-          (reference "C16") (unit 1)
-        )
-      )
-      (project "stm32f407vg"
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
-          (reference "C1") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
-          (reference "C302") (unit 1)
-        )
-      )
-      (project "basicparts"
-        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
-          (reference "C104") (unit 1)
-        )
-      )
-      (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C116") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
-          (reference "C502") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "C402") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED_Small") (at 81.28 38.1 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 66dde913-5571-4ac4-8679-430bf10a85c4)
-    (property "Reference" "D1" (at 78.74 33.655 0)
-      (effects (font (size 1 1)) (justify right))
-    )
-    (property "Value" "LED green (PWR)" (at 74.295 35.56 0)
-      (effects (font (size 1 1)) (justify right))
-    )
-    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (at 81.28 38.1 90)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" (at 81.28 38.1 90)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Description" "Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603  Light Emitting Diodes (LED) ROHS" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer" "Everlight Elec" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Partnumber" "19-217/GHC-YR1S2/3T" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "JLCPCB Part #" "C72043" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer_Name" "Everlight Elec" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer_Part_Number" "19-217/GHC-YR1S2/3T" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "isBasicPart" "YES" (at 81.28 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 19219729-a1b4-4e05-b40c-9ef0143e5a6f))
-    (pin "2" (uuid 23f37a58-4797-49b9-89cf-23ce5181ed30))
-    (instances
-      (project "stm32f1_nano"
-        (path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-          (reference "D1") (unit 1)
-        )
-      )
-      (project "stm32f407vg"
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
-          (reference "D1") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
-          (reference "D301") (unit 1)
-        )
-      )
-      (project "basicparts"
-        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
-          (reference "D102") (unit 1)
-        )
-      )
-      (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "D401") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7fb4eaf4-74c6-419d-8578-6cd0a966ea13"
-          (reference "D401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Regulator_Linear:AMS1117-3.3") (at 58.42 38.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 68a66699-60f0-4c43-a966-62a30e913819)
-    (property "Reference" "U2" (at 58.42 31.115 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Value" "AMS1117-3.3" (at 58.42 33.655 0)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 58.42 33.02 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 60.96 44.45 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Description" "72dB@(120Hz) 1A Fixed 3.3V~3.3V Positive SOT-223  Linear Voltage Regulators (LDO) ROHS" (at 58.42 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer" "Advanced Monolithic Systems" (at 58.42 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Partnumber" "AMS1117-3.3" (at 58.42 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "JLCPCB Part #" "C6186" (at 58.42 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "isBasicPart" "YES" (at 58.42 38.1 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 96d72062-c170-4e52-a877-b90c02d5c168))
-    (pin "2" (uuid 8c97895f-e953-497c-ae6d-dec97d499b70))
-    (pin "3" (uuid fd7a2d0c-a3b9-44c1-b919-1dbcf65f0f0f))
-    (instances
-      (project "stm32f407vg"
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
-          (reference "U2") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
-          (reference "U301") (unit 1)
-        )
-      )
-      (project "basicparts"
-        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
-          (reference "U102") (unit 1)
-        )
-        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4/2ae515ab-9954-426c-a077-e4e2bb86fb91"
-          (reference "U1") (unit 1)
-        )
-      )
-      (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "U401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small") (at 84.455 43.815 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6e037b56-aaa9-4551-b316-7cd46c1462cf)
-    (property "Reference" "R11" (at 82.55 43.815 90)
-      (effects (font (size 1 1)))
-    )
-    (property "Value" "200" (at 86.36 43.815 90)
-      (effects (font (size 1 1)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 200Ω 0402  Chip Resistor - Surface Mount ROHS" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "JLCPCB Part #" "C25087" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Partnumber" "0402WGF2000TCE" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "isBasicPart" "YES" (at 84.455 43.815 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 4b375e8c-091b-4c74-afb4-8ca347a7162a))
-    (pin "2" (uuid 59bb6ec9-4483-4a65-83a0-c881c298f6fc))
-    (instances
-      (project "stm32f1_nano"
-        (path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-          (reference "R11") (unit 1)
-        )
-      )
-      (project "stm32f407vg"
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
-          (reference "R123") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/cb9cd892-4fab-4f54-9695-d8ba54556bb0"
-          (reference "R252") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/480569e0-5dbc-4314-a9d6-1dbd834f5833"
-          (reference "R502") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
-          (reference "R301") (unit 1)
-        )
-      )
-      (project "basicparts"
-        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
-          (reference "R114") (unit 1)
-        )
-      )
-      (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "R401") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/7fb4eaf4-74c6-419d-8578-6cd0a966ea13"
-          (reference "R401") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 46.355 42.545 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7bcacf24-b4e4-46c9-bb6a-643a4f046033)
-    (property "Reference" "C15" (at 46.99 40.64 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Value" "22u 25V" (at 46.99 44.45 0)
-      (effects (font (size 1 1)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Datasheet" "~" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Description" "25V 22uF X5R ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "JLCPCB Part #" "C45783" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer_Name" "Samsung Electro-Mechanics" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Manufacturer_Part_Number" "CL21A226MAQNNNE" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "Partnumber" "CL21A226MAQNNNE" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (property "isBasicPart" "YES" (at 46.355 42.545 0)
-      (effects (font (size 1 1)) hide)
-    )
-    (pin "1" (uuid 45c9947c-644a-4c73-b43a-f7575730aa0f))
-    (pin "2" (uuid 4add71b7-c17c-43ad-b95a-f0ad83f3f9f8))
-    (instances
-      (project "stm32f1_nano"
-        (path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
-          (reference "C15") (unit 1)
-        )
-      )
-      (project "stm32f407vg"
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
-          (reference "C1") (unit 1)
-        )
-        (path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
-          (reference "C302") (unit 1)
-        )
-      )
-      (project "basicparts"
-        (path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
-          (reference "C104") (unit 1)
-        )
-      )
-      (project "stm32f4_uno"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "C115") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/0d09f1c5-80ef-4ecd-bc99-7e5b757caf07"
-          (reference "C501") (unit 1)
-        )
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
-          (reference "C401") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fb33549c-6dc7-44f3-b7ee-3ecd39fe3801")
+	(paper "A4")
+	(title_block
+		(title "STM32F4 Uno")
+		(date "2023-10-17")
+		(rev "1.1.x-dev")
+		(company "easy-smart solution GmbH")
+	)
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Regulator_Linear:AMS1117-3.3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-3.3"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-3.3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-3.3_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 71.755 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "121602b1-ca64-4ec1-8639-1388ca3d9787")
+	)
+	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59e11a4b-dd9e-4559-aed1-bd56a7b15f91")
+	)
+	(junction
+		(at 71.755 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a88443b3-ada9-45ab-823a-698babb51ea5")
+	)
+	(junction
+		(at 46.355 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b61cbe8f-f82e-4d9c-a52a-66efb21f1076")
+	)
+	(wire
+		(pts
+			(xy 46.355 40.005) (xy 46.355 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154298d1-73e3-4292-95ae-fd2e626ae20a")
+	)
+	(wire
+		(pts
+			(xy 71.755 48.26) (xy 84.455 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327e51ed-ead4-4c90-a07d-cbe49bc7d4ce")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 51.435)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a290d54-6094-479f-9cd9-3c33f2c9c7cd")
+	)
+	(wire
+		(pts
+			(xy 71.755 30.48) (xy 71.755 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b2c052-c8fd-47e6-a50e-034f3170cde9")
+	)
+	(wire
+		(pts
+			(xy 71.755 38.1) (xy 71.755 40.005)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c331e67-646d-4be3-9258-7c1634fa2593")
+	)
+	(wire
+		(pts
+			(xy 46.355 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c0cc5c-b62f-456e-8757-7b92936e1d82")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 71.755 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c85b598-9835-4973-9e5c-50a88c54e904")
+	)
+	(wire
+		(pts
+			(xy 46.355 38.1) (xy 50.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35acc7e-290d-41ad-ae52-9961643305d0")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b048de78-9f2e-4b45-be2c-ca5b91b81dd4")
+	)
+	(wire
+		(pts
+			(xy 71.755 45.085) (xy 71.755 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c93e7569-c426-430c-9557-61a21fd488ce")
+	)
+	(wire
+		(pts
+			(xy 71.755 38.1) (xy 78.74 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccae13dd-1405-409e-ac5a-9c06891e677f")
+	)
+	(wire
+		(pts
+			(xy 46.355 30.48) (xy 46.355 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0acd0a-d9ec-46df-9011-23e627d3382b")
+	)
+	(wire
+		(pts
+			(xy 84.455 46.355) (xy 84.455 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff6ae5f-5915-4a48-a578-99ffdc73cb05")
+	)
+	(wire
+		(pts
+			(xy 46.355 45.085) (xy 46.355 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a413b7-5bdc-4ecc-9687-0191ba895621")
+	)
+	(wire
+		(pts
+			(xy 84.455 38.1) (xy 83.82 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc769f9-bbd4-4431-a350-9b8416de2f14")
+	)
+	(wire
+		(pts
+			(xy 66.04 38.1) (xy 71.755 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f44ca186-1a79-462b-b0f0-565297503115")
+	)
+	(wire
+		(pts
+			(xy 84.455 41.275) (xy 84.455 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7a3b76-2896-4902-aaa6-3019fe1c9a56")
+	)
+	(text_box "VIN: 4.8V..15.3V\nIOUT: max. 1A"
+		(exclude_from_sim no)
+		(at 20.32 40.005 0)
+		(size 17.78 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "76f40b60-c5c4-4086-beec-ef34649f2a88")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 58.42 51.435 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right)
+		)
+		(uuid "357c521f-9a39-41b0-b0ae-9f12e8566296")
+	)
+	(hierarchical_label "+5V"
+		(shape input)
+		(at 46.355 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "5c304639-70d6-478a-8fcc-a5fcc6effea2")
+	)
+	(hierarchical_label "+3V3"
+		(shape output)
+		(at 71.755 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "7e4c3561-7560-4a80-bbf5-4d082f238077")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 71.755 42.545 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45182fbe-f546-4479-913f-49443c7e6e2f")
+		(property "Reference" "C16"
+			(at 71.12 40.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u 25V"
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 22uF X5R ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C45783"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A226MAQNNNE"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "CL21A226MAQNNNE"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" "YES"
+			(at 71.755 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "796550a1-3edf-46b6-8561-be5d5b48af41")
+		)
+		(pin "2"
+			(uuid "506d2895-0f76-4d70-9654-3d5beafb884e")
+		)
+		(instances
+			(project "stm32f1_nano"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "stm32f407vg"
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+			(project "basicparts"
+				(path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
+					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 81.28 38.1 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66dde913-5571-4ac4-8679-430bf10a85c4")
+		(property "Reference" "D1"
+			(at 78.74 33.655 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED green (PWR)"
+			(at 74.295 35.56 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 81.28 38.1 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf"
+			(at 81.28 38.1 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Colorless transparence -40℃~+85℃ 520nm~535nm Emerald 120° 110mW 0603  Light Emitting Diodes (LED) ROHS"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Everlight Elec"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "19-217/GHC-YR1S2/3T"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C72043"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Everlight Elec"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "19-217/GHC-YR1S2/3T"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" "YES"
+			(at 81.28 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19219729-a1b4-4e05-b40c-9ef0143e5a6f")
+		)
+		(pin "2"
+			(uuid "23f37a58-4797-49b9-89cf-23ce5181ed30")
+		)
+		(instances
+			(project "stm32f1_nano"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "stm32f407vg"
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
+					(reference "D301")
+					(unit 1)
+				)
+			)
+			(project "basicparts"
+				(path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
+					(reference "D102")
+					(unit 1)
+				)
+			)
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
+					(reference "D401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68a66699-60f0-4c43-a966-62a30e913819")
+		(property "Reference" "U2"
+			(at 58.42 31.115 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 58.42 33.655 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 58.42 33.02 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 60.96 44.45 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "72dB@(120Hz) 1A Fixed 3.3V~3.3V Positive SOT-223  Linear Voltage Regulators (LDO) ROHS"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Advanced Monolithic Systems"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "AMS1117-3.3"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C6186"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" "YES"
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96d72062-c170-4e52-a877-b90c02d5c168")
+		)
+		(pin "2"
+			(uuid "8c97895f-e953-497c-ae6d-dec97d499b70")
+		)
+		(pin "3"
+			(uuid "fd7a2d0c-a3b9-44c1-b919-1dbcf65f0f0f")
+		)
+		(instances
+			(project "stm32f407vg"
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
+					(reference "U301")
+					(unit 1)
+				)
+			)
+			(project "basicparts"
+				(path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
+					(reference "U102")
+					(unit 1)
+				)
+				(path "/43a31acf-2604-4bbd-9556-e633c3dff6c4/2ae515ab-9954-426c-a077-e4e2bb86fb91"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 84.455 43.815 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e037b56-aaa9-4551-b316-7cd46c1462cf")
+		(property "Reference" "R11"
+			(at 82.55 43.815 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "200"
+			(at 86.36 43.815 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors ±100ppm/℃ ±1% 200Ω 0402  Chip Resistor - Surface Mount ROHS"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25087"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "0402WGF2000TCE"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" "YES"
+			(at 84.455 43.815 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b375e8c-091b-4c74-afb4-8ca347a7162a")
+		)
+		(pin "2"
+			(uuid "59bb6ec9-4483-4a65-83a0-c881c298f6fc")
+		)
+		(instances
+			(project "stm32f1_nano"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "stm32f407vg"
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
+					(reference "R123")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
+					(reference "R301")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/480569e0-5dbc-4314-a9d6-1dbd834f5833"
+					(reference "R502")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/cb9cd892-4fab-4f54-9695-d8ba54556bb0"
+					(reference "R252")
+					(unit 1)
+				)
+			)
+			(project "basicparts"
+				(path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 46.355 42.545 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bcacf24-b4e4-46c9-bb6a-643a4f046033")
+		(property "Reference" "C15"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u 25V"
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "25V 22uF X5R ±20% 0805  Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C45783"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21A226MAQNNNE"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Partnumber" "CL21A226MAQNNNE"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "isBasicPart" "YES"
+			(at 46.355 42.545 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45c9947c-644a-4c73-b43a-f7575730aa0f")
+		)
+		(pin "2"
+			(uuid "4add71b7-c17c-43ad-b95a-f0ad83f3f9f8")
+		)
+		(instances
+			(project "stm32f1_nano"
+				(path "/0d35483a-0b12-46cc-b9f2-896fd6831779"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+			(project "stm32f407vg"
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30"
+					(reference "C1")
+					(unit 1)
+				)
+				(path "/2d452db2-a0cd-4a57-9497-df1dd0591a30/3fc0c7b9-3f68-401d-a562-a4bf607ef36a"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+			(project "basicparts"
+				(path "/43a31acf-2604-4bbd-9556-e633c3dff6c4"
+					(reference "C104")
+					(unit 1)
+				)
+			)
+			(project "stm32f4_uno"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/e72a8332-3ba4-45eb-8660-3dc6fc018488"
+					(reference "C401")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
